@@ -1,5 +1,6 @@
 package com.example.service.impl;
 
+import com.example.Utils.JwtUtil;
 import com.example.mapper.EmpExprMapper;
 import com.example.mapper.EmpMapper;
 import com.example.pojo.*;
@@ -13,10 +14,7 @@ import org.springframework.util.CollectionUtils;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 
 @Service
@@ -95,8 +93,13 @@ public class EmpServiceimpl implements EmpService {
 
         Emp loginEmp = empMapper.login(emp);
 
-        if (loginEmp != null)
-            return new Logininfo(loginEmp.getId(), loginEmp.getUsername(), loginEmp.getName(), "");
+        if (loginEmp != null) {
+            Map<String, Object> claims = new HashMap<>();
+            claims.put("id", loginEmp.getId());
+            claims.put("username", loginEmp.getUsername());
+            String jwt = JwtUtil.generateJwt(claims);
+            return new Logininfo(loginEmp.getId(), loginEmp.getUsername(), loginEmp.getName(), jwt);
+        }
         return null;
     }
 }

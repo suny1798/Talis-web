@@ -1,0 +1,862 @@
+2025-12-10 09:11:20.280 [main] INFO  com.example.TalisWebManagementApplication - Starting TalisWebManagementApplication using Java 21.0.8 with PID 18452 (D:\Code\Java_Code\Java_Web02\Talis-web-management\target\classes started by sun in D:\Code\Java_Code\Java_Web02)
+2025-12-10 09:11:20.283 [main] INFO  com.example.TalisWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-10 09:11:21.776 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-10 09:11:21.798 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-10 09:11:21.801 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-10 09:11:21.801 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2025-12-10 09:11:21.910 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-10 09:11:21.910 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1571 ms
+2025-12-10 09:11:23.041 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-10 09:11:23.072 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-12-10 09:11:23.083 [main] INFO  com.example.TalisWebManagementApplication - Started TalisWebManagementApplication in 3.447 seconds (process running for 5.497)
+2025-12-10 09:11:26.003 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-10 09:11:26.003 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-10 09:11:26.005 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-12-10 09:11:26.066 [http-nio-8080-exec-2] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource user.html.
+2025-12-10 09:11:26.609 [http-nio-8080-exec-1] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource favicon.ico.
+2025-12-10 09:11:28.120 [http-nio-8080-exec-4] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource sw.js.
+2025-12-10 09:11:32.652 [http-nio-8080-exec-3] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource .
+2025-12-10 09:11:32.896 [http-nio-8080-exec-7] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource favicon.ico.
+2025-12-10 09:11:34.545 [http-nio-8080-exec-6] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource sw.js.
+2025-12-10 09:11:46.044 [http-nio-8080-exec-8] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-10 09:11:46.074 [http-nio-8080-exec-5] INFO  com.example.controller.EmpController - 查询全部员工信息, EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-12-10 09:11:46.082 [http-nio-8080-exec-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-12-10 09:11:46.865 [http-nio-8080-exec-8] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@590002ac
+2025-12-10 09:11:46.868 [http-nio-8080-exec-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-12-10 09:11:54.422 [http-nio-8080-exec-9] INFO  com.example.controller.ReportController - 统计各个职位的员工人数
+2025-12-10 09:11:54.424 [http-nio-8080-exec-10] INFO  com.example.controller.ReportController - 统计员工性别数据
+2025-12-10 09:11:56.546 [http-nio-8080-exec-2] INFO  com.example.controller.ReportController - 统计班级学生数据
+2025-12-10 09:11:56.565 [http-nio-8080-exec-1] INFO  com.example.controller.ReportController - 统计学生学历数据
+2025-12-10 09:11:58.701 [http-nio-8080-exec-4] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-10 09:11:59.708 [http-nio-8080-exec-7] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-10 09:11:59.711 [http-nio-8080-exec-3] INFO  com.example.controller.EmpController - 查询全部员工信息, EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-12-10 09:12:02.687 [http-nio-8080-exec-8] INFO  com.example.controller.ClazzController - 查询全部班级列表
+2025-12-10 09:12:02.688 [http-nio-8080-exec-6] INFO  com.example.controller.StudentController - 分页查询学生信息, StuQueryParm(name=, degree=null, clazzId=null, page=1, pageSize=10)
+2025-12-10 09:12:02.689 [http-nio-8080-exec-6] INFO  com.example.service.impl.StudentServiceimpl - 查询全部班级信息: StuQueryParm(name=, degree=null, clazzId=null, page=1, pageSize=10)
+2025-12-10 09:12:03.842 [http-nio-8080-exec-5] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource sw.js.
+2025-12-10 09:12:45.355 [http-nio-8080-exec-10] INFO  com.example.controller.StudentController - 查询学生信息: 5
+2025-12-10 09:12:47.981 [http-nio-8080-exec-1] INFO  com.example.controller.StudentController - 更新学生信息: Student(id=5, name=阿朱, no=2022000005, gender=2, phone=18800160002, idCard=110120000300200005, isCollege=1, address=北京市昌平区建材城西路5号, degree=5, graduationDate=2020-07-01, clazzId=9, violationCount=0, violationScore=0, createTime=2024-11-14T21:22:19, updateTime=2024-11-14T21:22:19, clazzName=null)
+2025-12-10 09:12:48.036 [http-nio-8080-exec-2] INFO  com.example.controller.StudentController - 分页查询学生信息, StuQueryParm(name=, degree=null, clazzId=null, page=1, pageSize=10)
+2025-12-10 09:12:48.038 [http-nio-8080-exec-2] INFO  com.example.service.impl.StudentServiceimpl - 查询全部班级信息: StuQueryParm(name=, degree=null, clazzId=null, page=1, pageSize=10)
+2025-12-10 09:12:52.552 [http-nio-8080-exec-4] INFO  com.example.controller.StudentController - 分页查询学生信息, StuQueryParm(name=, degree=null, clazzId=null, page=1, pageSize=10)
+2025-12-10 09:12:52.553 [http-nio-8080-exec-4] INFO  com.example.service.impl.StudentServiceimpl - 查询全部班级信息: StuQueryParm(name=, degree=null, clazzId=null, page=1, pageSize=10)
+2025-12-10 09:12:54.934 [http-nio-8080-exec-7] INFO  com.example.controller.StudentController - 分页查询学生信息, StuQueryParm(name=, degree=null, clazzId=9, page=1, pageSize=10)
+2025-12-10 09:12:54.934 [http-nio-8080-exec-7] INFO  com.example.service.impl.StudentServiceimpl - 查询全部班级信息: StuQueryParm(name=, degree=null, clazzId=9, page=1, pageSize=10)
+2025-12-10 09:12:58.913 [http-nio-8080-exec-3] INFO  com.example.controller.StudentController - 分页查询学生信息, StuQueryParm(name=, degree=null, clazzId=4, page=1, pageSize=10)
+2025-12-10 09:12:58.913 [http-nio-8080-exec-3] INFO  com.example.service.impl.StudentServiceimpl - 查询全部班级信息: StuQueryParm(name=, degree=null, clazzId=4, page=1, pageSize=10)
+2025-12-10 09:13:02.078 [http-nio-8080-exec-8] INFO  com.example.controller.StudentController - 分页查询学生信息, StuQueryParm(name=, degree=null, clazzId=6, page=1, pageSize=10)
+2025-12-10 09:13:02.078 [http-nio-8080-exec-8] INFO  com.example.service.impl.StudentServiceimpl - 查询全部班级信息: StuQueryParm(name=, degree=null, clazzId=6, page=1, pageSize=10)
+2025-12-10 09:13:04.608 [http-nio-8080-exec-5] INFO  com.example.controller.StudentController - 分页查询学生信息, StuQueryParm(name=, degree=null, clazzId=1, page=1, pageSize=10)
+2025-12-10 09:13:04.608 [http-nio-8080-exec-5] INFO  com.example.service.impl.StudentServiceimpl - 查询全部班级信息: StuQueryParm(name=, degree=null, clazzId=1, page=1, pageSize=10)
+2025-12-10 09:13:05.972 [http-nio-8080-exec-9] INFO  com.example.controller.StudentController - 分页查询学生信息, StuQueryParm(name=, degree=null, clazzId=null, page=1, pageSize=10)
+2025-12-10 09:13:05.973 [http-nio-8080-exec-9] INFO  com.example.service.impl.StudentServiceimpl - 查询全部班级信息: StuQueryParm(name=, degree=null, clazzId=null, page=1, pageSize=10)
+2025-12-10 09:13:07.402 [http-nio-8080-exec-1] INFO  com.example.controller.EmpController - 查询员工列表
+2025-12-10 09:13:07.404 [http-nio-8080-exec-10] INFO  com.example.controller.ClazzController - 查询全部班级信息
+2025-12-10 09:13:07.404 [http-nio-8080-exec-10] INFO  com.example.service.impl.ClazzServiceimpl - 查询全部班级信息: ClazzQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2025-12-10 09:13:19.643 [http-nio-8080-exec-2] INFO  com.example.controller.ClazzController - 查询班级id信息: 9
+2025-12-10 09:13:24.124 [http-nio-8080-exec-4] INFO  com.example.controller.ClazzController - 查询班级id信息: 4
+2025-12-10 09:15:08.198 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-10 09:15:08.206 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-12-10 09:15:08.211 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-12-10 09:15:08.218 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-12-10 09:15:50.916 [main] INFO  com.example.TalisWebManagementApplication - Starting TalisWebManagementApplication using Java 21.0.8 with PID 29956 (D:\Code\Java_Code\Java_Web02\Talis-web-management\target\classes started by sun in D:\Code\Java_Code\Java_Web02)
+2025-12-10 09:15:50.919 [main] INFO  com.example.TalisWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-10 09:15:52.287 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-10 09:15:52.308 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-10 09:15:52.311 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-10 09:15:52.311 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2025-12-10 09:15:52.412 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-10 09:15:52.414 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1408 ms
+2025-12-10 09:15:53.361 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-10 09:15:53.386 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-12-10 09:15:53.395 [main] INFO  com.example.TalisWebManagementApplication - Started TalisWebManagementApplication in 2.979 seconds (process running for 4.448)
+2025-12-10 09:17:01.079 [http-nio-8080-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-10 09:17:01.079 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-10 09:17:01.080 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-12-10 09:17:01.143 [http-nio-8080-exec-3] INFO  com.example.controller.EmpController - 查询员工列表
+2025-12-10 09:17:01.173 [http-nio-8080-exec-1] INFO  com.example.controller.ClazzController - 查询全部班级信息
+2025-12-10 09:17:01.175 [http-nio-8080-exec-1] INFO  com.example.service.impl.ClazzServiceimpl - 查询全部班级信息: ClazzQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2025-12-10 09:17:01.186 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-12-10 09:17:01.889 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@61308ea0
+2025-12-10 09:17:01.894 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-12-10 09:17:15.825 [http-nio-8080-exec-4] INFO  com.example.controller.EmpController - 查询员工列表
+2025-12-10 09:17:15.825 [http-nio-8080-exec-2] INFO  com.example.controller.ClazzController - 查询全部班级信息
+2025-12-10 09:17:15.825 [http-nio-8080-exec-2] INFO  com.example.service.impl.ClazzServiceimpl - 查询全部班级信息: ClazzQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2025-12-10 09:17:16.204 [http-nio-8080-exec-6] INFO  com.example.controller.ClazzController - 查询全部班级列表
+2025-12-10 09:17:16.207 [http-nio-8080-exec-5] INFO  com.example.controller.StudentController - 分页查询学生信息, StuQueryParm(name=, degree=null, clazzId=null, page=1, pageSize=10)
+2025-12-10 09:17:16.209 [http-nio-8080-exec-5] INFO  com.example.service.impl.StudentServiceimpl - 查询全部班级信息: StuQueryParm(name=, degree=null, clazzId=null, page=1, pageSize=10)
+2025-12-10 09:17:36.209 [http-nio-8080-exec-8] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource .well-known/appspecific/com.chrome.devtools.json.
+2025-12-10 09:17:36.690 [http-nio-8080-exec-9] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource favicon.ico.
+2025-12-10 09:17:38.183 [http-nio-8080-exec-10] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource sw.js.
+2025-12-10 09:18:25.941 [http-nio-8080-exec-1] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource .well-known/appspecific/com.chrome.devtools.json.
+2025-12-10 09:18:26.309 [http-nio-8080-exec-4] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource favicon.ico.
+2025-12-10 09:18:27.822 [http-nio-8080-exec-2] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource sw.js.
+2025-12-10 09:22:37.098 [http-nio-8080-exec-7] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource sw.js.
+2025-12-10 09:27:33.198 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-10 09:27:33.207 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-12-10 09:27:33.210 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-12-10 09:27:33.217 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-12-10 09:27:38.855 [main] INFO  com.example.TalisWebManagementApplication - Starting TalisWebManagementApplication using Java 21.0.8 with PID 32016 (D:\Code\Java_Code\Java_Web02\Talis-web-management\target\classes started by sun in D:\Code\Java_Code\Java_Web02)
+2025-12-10 09:27:38.857 [main] INFO  com.example.TalisWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-10 09:27:40.139 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-10 09:27:40.160 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-10 09:27:40.162 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-10 09:27:40.162 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2025-12-10 09:27:40.249 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-10 09:27:40.249 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1347 ms
+2025-12-10 09:27:41.213 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-10 09:27:41.239 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-12-10 09:27:41.248 [main] INFO  com.example.TalisWebManagementApplication - Started TalisWebManagementApplication in 2.91 seconds (process running for 4.222)
+2025-12-10 09:27:50.051 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-10 09:27:50.051 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-10 09:27:50.052 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-12-10 09:27:50.133 [http-nio-8080-exec-1] INFO  com.example.controller.SessionController - HttpSession-s1: 55933841
+2025-12-10 09:27:50.307 [http-nio-8080-exec-2] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource .well-known/appspecific/com.chrome.devtools.json.
+2025-12-10 09:27:50.669 [http-nio-8080-exec-3] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource favicon.ico.
+2025-12-10 09:27:52.163 [http-nio-8080-exec-4] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource sw.js.
+2025-12-10 09:28:07.177 [http-nio-8080-exec-8] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource sw.js.
+2025-12-10 09:33:37.241 [http-nio-8080-exec-5] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource sw.js.
+2025-12-10 09:34:48.792 [http-nio-8080-exec-7] INFO  com.example.controller.SessionController - HttpSession-s2: 55933841
+2025-12-10 09:34:48.794 [http-nio-8080-exec-7] INFO  com.example.controller.SessionController - loginUser: tom
+2025-12-10 09:34:48.895 [http-nio-8080-exec-1] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource .well-known/appspecific/com.chrome.devtools.json.
+2025-12-10 09:34:49.194 [http-nio-8080-exec-2] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource favicon.ico.
+2025-12-10 09:34:50.748 [http-nio-8080-exec-3] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource sw.js.
+2025-12-10 09:39:07.347 [http-nio-8080-exec-10] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource sw.js.
+2025-12-10 09:44:37.418 [http-nio-8080-exec-5] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource sw.js.
+2025-12-10 09:50:07.472 [http-nio-8080-exec-7] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource sw.js.
+2025-12-10 09:55:37.539 [http-nio-8080-exec-2] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource sw.js.
+2025-12-10 10:01:07.615 [http-nio-8080-exec-4] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource sw.js.
+2025-12-10 10:06:37.684 [http-nio-8080-exec-10] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource sw.js.
+2025-12-10 10:12:07.795 [http-nio-8080-exec-5] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource sw.js.
+2025-12-10 10:13:17.258 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-10 10:13:17.276 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-12-10 10:50:45.377 [main] INFO  com.example.TalisWebManagementApplication - Starting TalisWebManagementApplication using Java 21.0.8 with PID 24972 (D:\Code\Java_Code\Java_Web02\Talis-web-management\target\classes started by sun in D:\Code\Java_Code\Java_Web02)
+2025-12-10 10:50:45.380 [main] INFO  com.example.TalisWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-10 10:50:46.969 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-10 10:50:46.990 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-10 10:50:46.993 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-10 10:50:46.993 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2025-12-10 10:50:47.096 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-10 10:50:47.097 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1652 ms
+2025-12-10 10:50:48.223 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-10 10:50:48.255 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-12-10 10:50:48.265 [main] INFO  com.example.TalisWebManagementApplication - Started TalisWebManagementApplication in 3.543 seconds (process running for 5.008)
+2025-12-10 10:50:52.085 [http-nio-8080-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-10 10:50:52.085 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-10 10:50:52.086 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-12-10 10:50:52.247 [http-nio-8080-exec-3] INFO  com.example.controller.LoginController - 登录： Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-12-10 10:50:52.284 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-12-10 10:50:52.839 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7ab7bacf
+2025-12-10 10:50:52.842 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-12-10 10:51:20.383 [http-nio-8080-exec-4] INFO  com.example.controller.ClazzController - 查询全部班级列表
+2025-12-10 10:51:20.394 [http-nio-8080-exec-2] INFO  com.example.controller.StudentController - 分页查询学生信息, StuQueryParm(name=, degree=null, clazzId=null, page=1, pageSize=10)
+2025-12-10 10:51:20.396 [http-nio-8080-exec-2] INFO  com.example.service.impl.StudentServiceimpl - 查询全部班级信息: StuQueryParm(name=, degree=null, clazzId=null, page=1, pageSize=10)
+2025-12-10 10:51:22.410 [http-nio-8080-exec-5] INFO  com.example.controller.EmpController - 查询员工列表
+2025-12-10 10:51:22.418 [http-nio-8080-exec-6] INFO  com.example.controller.ClazzController - 查询全部班级信息
+2025-12-10 10:51:22.418 [http-nio-8080-exec-6] INFO  com.example.service.impl.ClazzServiceimpl - 查询全部班级信息: ClazzQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2025-12-10 10:51:22.985 [http-nio-8080-exec-8] INFO  com.example.controller.ClazzController - 查询全部班级列表
+2025-12-10 10:51:22.986 [http-nio-8080-exec-7] INFO  com.example.controller.StudentController - 分页查询学生信息, StuQueryParm(name=, degree=null, clazzId=null, page=1, pageSize=10)
+2025-12-10 10:51:22.986 [http-nio-8080-exec-7] INFO  com.example.service.impl.StudentServiceimpl - 查询全部班级信息: StuQueryParm(name=, degree=null, clazzId=null, page=1, pageSize=10)
+2025-12-10 10:51:34.475 [http-nio-8080-exec-9] INFO  com.example.controller.LoginController - 登录： Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-12-10 10:52:57.646 [http-nio-8080-exec-1] INFO  com.example.controller.LoginController - 登录： Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-12-10 10:56:01.211 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-10 10:56:01.220 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-12-10 10:56:01.224 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-12-10 10:56:01.234 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-12-10 10:56:06.114 [main] INFO  com.example.TalisWebManagementApplication - Starting TalisWebManagementApplication using Java 21.0.8 with PID 32816 (D:\Code\Java_Code\Java_Web02\Talis-web-management\target\classes started by sun in D:\Code\Java_Code\Java_Web02)
+2025-12-10 10:56:06.116 [main] INFO  com.example.TalisWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-10 10:56:07.218 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-10 10:56:07.233 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-10 10:56:07.236 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-10 10:56:07.236 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2025-12-10 10:56:07.314 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-10 10:56:07.314 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1160 ms
+2025-12-10 10:56:08.156 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-10 10:56:08.185 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-12-10 10:56:08.193 [main] INFO  com.example.TalisWebManagementApplication - Started TalisWebManagementApplication in 2.544 seconds (process running for 3.655)
+2025-12-10 10:56:08.482 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-10 10:56:08.482 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-10 10:56:08.483 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-12-10 10:56:08.511 [http-nio-8080-exec-1] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource sw.js.
+2025-12-10 10:56:15.080 [http-nio-8080-exec-2] INFO  com.example.controller.LoginController - 登录： Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-12-10 10:56:15.118 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-12-10 10:56:15.638 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5109a401
+2025-12-10 10:56:15.640 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-12-10 10:56:30.684 [http-nio-8080-exec-5] INFO  com.example.controller.EmpController - 查询员工列表
+2025-12-10 10:56:30.696 [http-nio-8080-exec-3] INFO  com.example.controller.ClazzController - 查询全部班级信息
+2025-12-10 10:56:30.699 [http-nio-8080-exec-3] INFO  com.example.service.impl.ClazzServiceimpl - 查询全部班级信息: ClazzQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2025-12-10 10:56:31.309 [http-nio-8080-exec-4] INFO  com.example.controller.ClazzController - 查询全部班级列表
+2025-12-10 10:56:31.311 [http-nio-8080-exec-6] INFO  com.example.controller.StudentController - 分页查询学生信息, StuQueryParm(name=, degree=null, clazzId=null, page=1, pageSize=10)
+2025-12-10 10:56:31.312 [http-nio-8080-exec-6] INFO  com.example.service.impl.StudentServiceimpl - 查询全部班级信息: StuQueryParm(name=, degree=null, clazzId=null, page=1, pageSize=10)
+2025-12-10 10:56:32.843 [http-nio-8080-exec-7] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-10 10:56:33.335 [http-nio-8080-exec-10] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-10 10:56:33.342 [http-nio-8080-exec-8] INFO  com.example.controller.EmpController - 查询全部员工信息, EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-12-10 10:56:33.830 [http-nio-8080-exec-9] INFO  com.example.controller.ReportController - 统计各个职位的员工人数
+2025-12-10 10:56:33.835 [http-nio-8080-exec-1] INFO  com.example.controller.ReportController - 统计员工性别数据
+2025-12-10 10:56:34.361 [http-nio-8080-exec-2] INFO  com.example.controller.ReportController - 统计班级学生数据
+2025-12-10 10:56:34.382 [http-nio-8080-exec-5] INFO  com.example.controller.ReportController - 统计学生学历数据
+2025-12-10 10:56:35.160 [http-nio-8080-exec-3] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-10 10:56:35.686 [http-nio-8080-exec-6] INFO  com.example.controller.ClazzController - 查询全部班级列表
+2025-12-10 10:56:35.687 [http-nio-8080-exec-4] INFO  com.example.controller.StudentController - 分页查询学生信息, StuQueryParm(name=, degree=null, clazzId=null, page=1, pageSize=10)
+2025-12-10 10:56:35.689 [http-nio-8080-exec-4] INFO  com.example.service.impl.StudentServiceimpl - 查询全部班级信息: StuQueryParm(name=, degree=null, clazzId=null, page=1, pageSize=10)
+2025-12-10 10:56:36.031 [http-nio-8080-exec-10] INFO  com.example.controller.EmpController - 查询员工列表
+2025-12-10 10:56:36.032 [http-nio-8080-exec-7] INFO  com.example.controller.ClazzController - 查询全部班级信息
+2025-12-10 10:56:36.032 [http-nio-8080-exec-7] INFO  com.example.service.impl.ClazzServiceimpl - 查询全部班级信息: ClazzQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2025-12-10 11:01:38.499 [http-nio-8080-exec-1] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource sw.js.
+2025-12-10 11:07:08.581 [http-nio-8080-exec-2] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource sw.js.
+2025-12-10 11:08:09.599 [http-nio-8080-exec-3] INFO  com.example.controller.EmpController - 查询员工列表
+2025-12-10 11:08:09.600 [http-nio-8080-exec-6] INFO  com.example.controller.ClazzController - 查询全部班级信息
+2025-12-10 11:08:09.600 [http-nio-8080-exec-6] INFO  com.example.service.impl.ClazzServiceimpl - 查询全部班级信息: ClazzQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2025-12-10 11:09:03.458 [http-nio-8080-exec-4] INFO  com.example.controller.LoginController - 登录： Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-12-10 11:09:24.248 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-10 11:09:24.257 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-12-10 11:09:24.260 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-12-10 11:09:24.266 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-12-10 11:09:29.631 [main] INFO  com.example.TalisWebManagementApplication - Starting TalisWebManagementApplication using Java 21.0.8 with PID 26676 (D:\Code\Java_Code\Java_Web02\Talis-web-management\target\classes started by sun in D:\Code\Java_Code\Java_Web02)
+2025-12-10 11:09:29.633 [main] INFO  com.example.TalisWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-10 11:09:30.899 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-10 11:09:30.920 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-10 11:09:30.922 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-10 11:09:30.923 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2025-12-10 11:09:31.017 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-10 11:09:31.018 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1339 ms
+2025-12-10 11:09:31.918 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-10 11:09:31.944 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-12-10 11:09:31.952 [main] INFO  com.example.TalisWebManagementApplication - Started TalisWebManagementApplication in 2.833 seconds (process running for 4.047)
+2025-12-10 11:09:57.401 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-10 11:09:57.401 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-10 11:09:57.402 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-12-10 11:09:57.573 [http-nio-8080-exec-2] INFO  com.example.controller.LoginController - 登录： Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-12-10 11:09:57.618 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-12-10 11:09:58.143 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2dfa9803
+2025-12-10 11:09:58.146 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-12-10 11:10:04.132 [http-nio-8080-exec-3] INFO  com.example.controller.EmpController - 查询员工列表
+2025-12-10 11:10:04.133 [http-nio-8080-exec-1] INFO  com.example.controller.ClazzController - 查询全部班级信息
+2025-12-10 11:10:04.140 [http-nio-8080-exec-1] INFO  com.example.service.impl.ClazzServiceimpl - 查询全部班级信息: ClazzQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2025-12-10 11:10:28.383 [http-nio-8080-exec-5] INFO  com.example.controller.EmpController - 查询员工列表
+2025-12-10 11:10:28.385 [http-nio-8080-exec-4] INFO  com.example.controller.ClazzController - 查询全部班级信息
+2025-12-10 11:10:28.385 [http-nio-8080-exec-4] INFO  com.example.service.impl.ClazzServiceimpl - 查询全部班级信息: ClazzQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2025-12-10 11:12:38.665 [http-nio-8080-exec-6] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource sw.js.
+2025-12-10 11:13:15.345 [http-nio-8080-exec-7] INFO  com.example.controller.ClazzController - 查询班级id信息: 6
+2025-12-10 11:13:23.184 [http-nio-8080-exec-9] INFO  com.example.controller.ClazzController - 查询全部班级列表
+2025-12-10 11:13:23.186 [http-nio-8080-exec-8] INFO  com.example.controller.StudentController - 分页查询学生信息, StuQueryParm(name=, degree=null, clazzId=null, page=1, pageSize=10)
+2025-12-10 11:13:23.186 [http-nio-8080-exec-8] INFO  com.example.service.impl.StudentServiceimpl - 查询全部班级信息: StuQueryParm(name=, degree=null, clazzId=null, page=1, pageSize=10)
+2025-12-10 11:13:30.419 [http-nio-8080-exec-10] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: Method parameter 'score': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Short'; Value out of range. Value:"99999" Radix:10
+2025-12-10 11:13:35.484 [http-nio-8080-exec-2] INFO  com.example.controller.StudentController - 添加学生违规信息: 13, 9
+2025-12-10 11:13:35.517 [http-nio-8080-exec-3] INFO  com.example.controller.StudentController - 分页查询学生信息, StuQueryParm(name=, degree=null, clazzId=null, page=1, pageSize=10)
+2025-12-10 11:13:35.517 [http-nio-8080-exec-3] INFO  com.example.service.impl.StudentServiceimpl - 查询全部班级信息: StuQueryParm(name=, degree=null, clazzId=null, page=1, pageSize=10)
+2025-12-10 11:13:53.039 [http-nio-8080-exec-5] INFO  com.example.controller.StudentController - 查询学生信息: 5
+2025-12-10 11:18:08.772 [http-nio-8080-exec-4] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource sw.js.
+2025-12-10 11:23:38.860 [http-nio-8080-exec-7] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource sw.js.
+2025-12-10 11:29:08.980 [http-nio-8080-exec-8] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource sw.js.
+2025-12-10 11:34:39.069 [http-nio-8080-exec-2] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource sw.js.
+2025-12-10 11:40:09.181 [http-nio-8080-exec-1] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource sw.js.
+2025-12-10 11:45:39.259 [http-nio-8080-exec-4] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource sw.js.
+2025-12-10 11:51:09.347 [http-nio-8080-exec-7] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource sw.js.
+2025-12-10 11:56:39.409 [http-nio-8080-exec-8] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource sw.js.
+2025-12-10 12:02:09.496 [http-nio-8080-exec-2] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource sw.js.
+2025-12-10 12:07:39.601 [http-nio-8080-exec-1] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource sw.js.
+2025-12-10 12:13:09.711 [http-nio-8080-exec-4] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource sw.js.
+2025-12-10 12:18:39.823 [http-nio-8080-exec-7] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource sw.js.
+2025-12-10 12:24:09.917 [http-nio-8080-exec-8] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource sw.js.
+2025-12-10 12:29:40.000 [http-nio-8080-exec-2] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource sw.js.
+2025-12-10 12:35:10.098 [http-nio-8080-exec-1] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource sw.js.
+2025-12-10 12:40:40.173 [http-nio-8080-exec-4] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource sw.js.
+2025-12-10 12:46:10.265 [http-nio-8080-exec-7] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource sw.js.
+2025-12-10 12:51:40.354 [http-nio-8080-exec-8] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource sw.js.
+2025-12-10 12:57:10.423 [http-nio-8080-exec-2] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource sw.js.
+2025-12-10 13:02:40.535 [http-nio-8080-exec-1] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource sw.js.
+2025-12-10 13:08:10.595 [http-nio-8080-exec-4] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource sw.js.
+2025-12-10 13:13:40.687 [http-nio-8080-exec-7] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource sw.js.
+2025-12-10 13:19:10.782 [http-nio-8080-exec-8] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource sw.js.
+2025-12-10 13:24:40.864 [http-nio-8080-exec-2] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource sw.js.
+2025-12-10 13:30:10.972 [http-nio-8080-exec-1] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource sw.js.
+2025-12-10 13:35:41.024 [http-nio-8080-exec-4] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource sw.js.
+2025-12-10 13:41:11.100 [http-nio-8080-exec-7] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource sw.js.
+2025-12-10 13:43:29.230 [http-nio-8080-exec-10] INFO  com.example.controller.EmpController - 查询员工列表
+2025-12-10 13:43:29.231 [http-nio-8080-exec-8] INFO  com.example.controller.ClazzController - 查询全部班级信息
+2025-12-10 13:43:29.231 [http-nio-8080-exec-8] INFO  com.example.service.impl.ClazzServiceimpl - 查询全部班级信息: ClazzQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2025-12-10 13:43:48.636 [http-nio-8080-exec-2] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-10 13:43:49.105 [http-nio-8080-exec-1] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-10 13:43:49.108 [http-nio-8080-exec-3] INFO  com.example.controller.EmpController - 查询全部员工信息, EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-12-10 13:43:50.019 [http-nio-8080-exec-5] INFO  com.example.controller.ReportController - 统计各个职位的员工人数
+2025-12-10 13:43:50.027 [http-nio-8080-exec-4] INFO  com.example.controller.ReportController - 统计员工性别数据
+2025-12-10 13:43:50.476 [http-nio-8080-exec-6] INFO  com.example.controller.ReportController - 统计班级学生数据
+2025-12-10 13:43:50.481 [http-nio-8080-exec-7] INFO  com.example.controller.ReportController - 统计学生学历数据
+2025-12-10 13:43:51.784 [http-nio-8080-exec-10] INFO  com.example.controller.ClazzController - 查询全部班级列表
+2025-12-10 13:43:51.784 [http-nio-8080-exec-9] INFO  com.example.controller.StudentController - 分页查询学生信息, StuQueryParm(name=, degree=null, clazzId=null, page=1, pageSize=10)
+2025-12-10 13:43:51.784 [http-nio-8080-exec-9] INFO  com.example.service.impl.StudentServiceimpl - 查询全部班级信息: StuQueryParm(name=, degree=null, clazzId=null, page=1, pageSize=10)
+2025-12-10 13:43:52.633 [http-nio-8080-exec-2] INFO  com.example.controller.EmpController - 查询员工列表
+2025-12-10 13:43:52.634 [http-nio-8080-exec-8] INFO  com.example.controller.ClazzController - 查询全部班级信息
+2025-12-10 13:43:52.634 [http-nio-8080-exec-8] INFO  com.example.service.impl.ClazzServiceimpl - 查询全部班级信息: ClazzQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2025-12-10 13:46:41.183 [http-nio-8080-exec-1] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource sw.js.
+2025-12-10 13:49:47.300 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-10 13:49:47.309 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-12-10 13:49:47.315 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-12-10 13:49:47.319 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-12-10 13:49:53.332 [main] INFO  com.example.TalisWebManagementApplication - Starting TalisWebManagementApplication using Java 21.0.8 with PID 33124 (D:\Code\Java_Code\Java_Web02\Talis-web-management\target\classes started by sun in D:\Code\Java_Code\Java_Web02)
+2025-12-10 13:49:53.334 [main] INFO  com.example.TalisWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-10 13:49:54.624 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-10 13:49:54.643 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-10 13:49:54.646 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-10 13:49:54.646 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2025-12-10 13:49:54.730 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-10 13:49:54.730 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1351 ms
+2025-12-10 13:49:54.782 [main] INFO  com.example.Filter.DemoFilter - 初始化过滤器
+2025-12-10 13:49:55.691 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-10 13:49:55.718 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-12-10 13:49:55.726 [main] INFO  com.example.TalisWebManagementApplication - Started TalisWebManagementApplication in 2.865 seconds (process running for 4.269)
+2025-12-10 13:50:05.148 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-10 13:50:05.148 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-10 13:50:05.150 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-12-10 13:50:05.156 [http-nio-8080-exec-2] INFO  com.example.Filter.DemoFilter - 执行过滤器
+2025-12-10 13:50:31.176 [http-nio-8080-exec-3] INFO  com.example.Filter.DemoFilter - 执行过滤器
+2025-12-10 13:50:33.158 [http-nio-8080-exec-4] INFO  com.example.Filter.DemoFilter - 执行过滤器
+2025-12-10 13:50:34.442 [http-nio-8080-exec-6] INFO  com.example.Filter.DemoFilter - 执行过滤器
+2025-12-10 13:52:11.282 [http-nio-8080-exec-7] INFO  com.example.Filter.DemoFilter - 执行过滤器
+2025-12-10 13:52:43.631 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-10 13:52:43.649 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-12-10 13:52:43.655 [SpringApplicationShutdownHook] INFO  com.example.Filter.DemoFilter - 销毁过滤器
+2025-12-10 13:52:48.571 [main] INFO  com.example.TalisWebManagementApplication - Starting TalisWebManagementApplication using Java 21.0.8 with PID 5620 (D:\Code\Java_Code\Java_Web02\Talis-web-management\target\classes started by sun in D:\Code\Java_Code\Java_Web02)
+2025-12-10 13:52:48.573 [main] INFO  com.example.TalisWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-10 13:52:49.748 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-10 13:52:49.766 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-10 13:52:49.768 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-10 13:52:49.768 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2025-12-10 13:52:49.852 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-10 13:52:49.852 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1231 ms
+2025-12-10 13:52:49.908 [main] INFO  com.example.Filter.DemoFilter - 初始化过滤器
+2025-12-10 13:52:50.746 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-10 13:52:50.769 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-12-10 13:52:50.778 [main] INFO  com.example.TalisWebManagementApplication - Started TalisWebManagementApplication in 2.694 seconds (process running for 3.883)
+2025-12-10 13:52:56.356 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-10 13:52:56.357 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-10 13:52:56.357 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-12-10 13:52:56.363 [http-nio-8080-exec-2] INFO  com.example.Filter.DemoFilter - 执行过滤器
+2025-12-10 13:52:56.495 [http-nio-8080-exec-2] INFO  com.example.controller.LoginController - 登录： Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-12-10 13:52:56.531 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-12-10 13:52:57.111 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3d96a72b
+2025-12-10 13:52:57.115 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-12-10 13:57:41.364 [http-nio-8080-exec-3] INFO  com.example.Filter.DemoFilter - 执行过滤器
+2025-12-10 13:57:41.375 [http-nio-8080-exec-3] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource sw.js.
+2025-12-10 14:03:11.416 [http-nio-8080-exec-6] INFO  com.example.Filter.DemoFilter - 执行过滤器
+2025-12-10 14:03:11.423 [http-nio-8080-exec-6] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource sw.js.
+2025-12-10 14:08:41.493 [http-nio-8080-exec-8] INFO  com.example.Filter.DemoFilter - 执行过滤器
+2025-12-10 14:08:41.495 [http-nio-8080-exec-8] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource sw.js.
+2025-12-10 14:12:33.587 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-10 14:12:33.598 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-12-10 14:12:33.602 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-12-10 14:12:33.610 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-12-10 14:12:33.612 [SpringApplicationShutdownHook] INFO  com.example.Filter.DemoFilter - 销毁过滤器
+2025-12-10 14:12:38.846 [main] INFO  com.example.TalisWebManagementApplication - Starting TalisWebManagementApplication using Java 21.0.8 with PID 16080 (D:\Code\Java_Code\Java_Web02\Talis-web-management\target\classes started by sun in D:\Code\Java_Code\Java_Web02)
+2025-12-10 14:12:38.848 [main] INFO  com.example.TalisWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-10 14:12:40.146 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-10 14:12:40.162 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-10 14:12:40.165 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-10 14:12:40.165 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2025-12-10 14:12:40.252 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-10 14:12:40.252 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1359 ms
+2025-12-10 14:12:41.170 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-10 14:12:41.195 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-12-10 14:12:41.204 [main] INFO  com.example.TalisWebManagementApplication - Started TalisWebManagementApplication in 2.856 seconds (process running for 3.963)
+2025-12-10 14:12:50.329 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-10 14:12:50.329 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-10 14:12:50.330 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-12-10 14:13:09.893 [http-nio-8080-exec-1] INFO  com.example.Filter.TokenFilter - 登录接口--放行
+2025-12-10 14:13:15.096 [http-nio-8080-exec-1] INFO  com.example.controller.LoginController - 登录： Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-12-10 14:13:15.269 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-12-10 14:13:17.823 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@763f8f74
+2025-12-10 14:13:17.831 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-12-10 14:14:32.438 [http-nio-8080-exec-3] INFO  com.example.Filter.TokenFilter - token不存在--拦截
+2025-12-10 14:14:47.614 [http-nio-8080-exec-4] INFO  com.example.Filter.TokenFilter - token不存在--拦截
+2025-12-10 14:15:55.849 [http-nio-8080-exec-8] INFO  com.example.Filter.TokenFilter - token验证失败--拦截
+2025-12-10 14:15:55.850 [http-nio-8080-exec-8] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.lang.RuntimeException: io.jsonwebtoken.MalformedJwtException: Unable to read JSON value: {"alg":"HS256"|
+	at com.example.Filter.TokenFilter.doFilter(TokenFilter.java:43)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: io.jsonwebtoken.MalformedJwtException: Unable to read JSON value: {"alg":"HS256"|
+	at io.jsonwebtoken.impl.DefaultJwtParser.readValue(DefaultJwtParser.java:554)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:252)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541)
+	at com.example.Utils.JwtUtil.parseJwt(JwtUtil.java:68)
+	at com.example.Utils.JwtUtil.parseJwt(JwtUtil.java:56)
+	at com.example.Filter.TokenFilter.doFilter(TokenFilter.java:40)
+	... 30 common frames omitted
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unexpected character ('|' (code 124)): was expecting comma to separate Object entries
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 15]
+	at com.fasterxml.jackson.core.JsonParser._constructReadException(JsonParser.java:2672)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:742)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipComma(ReaderBasedJsonParser.java:2429)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextFieldName(ReaderBasedJsonParser.java:924)
+	at com.fasterxml.jackson.databind.deser.std.MapDeserializer._readAndBindStringKeyMap(MapDeserializer.java:608)
+	at com.fasterxml.jackson.databind.deser.std.MapDeserializer.deserialize(MapDeserializer.java:450)
+	at com.fasterxml.jackson.databind.deser.std.MapDeserializer.deserialize(MapDeserializer.java:31)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:342)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4979)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3895)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3863)
+	at io.jsonwebtoken.impl.DefaultJwtParser.readValue(DefaultJwtParser.java:552)
+	... 36 common frames omitted
+2025-12-10 14:16:26.943 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-10 14:16:26.952 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-12-10 14:16:26.956 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-12-10 14:16:26.962 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-12-10 14:16:33.635 [main] INFO  com.example.TalisWebManagementApplication - Starting TalisWebManagementApplication using Java 21.0.8 with PID 34448 (D:\Code\Java_Code\Java_Web02\Talis-web-management\target\classes started by sun in D:\Code\Java_Code\Java_Web02)
+2025-12-10 14:16:33.638 [main] INFO  com.example.TalisWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-10 14:16:34.925 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-10 14:16:34.946 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-10 14:16:34.948 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-10 14:16:34.948 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2025-12-10 14:16:35.046 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-10 14:16:35.046 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1363 ms
+2025-12-10 14:16:35.918 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-10 14:16:35.944 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-12-10 14:16:35.951 [main] INFO  com.example.TalisWebManagementApplication - Started TalisWebManagementApplication in 2.866 seconds (process running for 4.221)
+2025-12-10 14:16:42.007 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-10 14:16:42.007 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-10 14:16:42.008 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-12-10 14:17:00.655 [http-nio-8080-exec-2] INFO  com.example.Filter.TokenFilter - token验证失败--拦截
+2025-12-10 14:17:05.306 [http-nio-8080-exec-2] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.lang.RuntimeException: io.jsonwebtoken.MalformedJwtException: Unable to read JSON value: {"alg":"HS256"|
+	at com.example.Filter.TokenFilter.doFilter(TokenFilter.java:43)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: io.jsonwebtoken.MalformedJwtException: Unable to read JSON value: {"alg":"HS256"|
+	at io.jsonwebtoken.impl.DefaultJwtParser.readValue(DefaultJwtParser.java:554)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:252)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541)
+	at com.example.Utils.JwtUtil.parseJwt(JwtUtil.java:68)
+	at com.example.Utils.JwtUtil.parseJwt(JwtUtil.java:56)
+	at com.example.Filter.TokenFilter.doFilter(TokenFilter.java:40)
+	... 30 common frames omitted
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unexpected character ('|' (code 124)): was expecting comma to separate Object entries
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 15]
+	at com.fasterxml.jackson.core.JsonParser._constructReadException(JsonParser.java:2672)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:742)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipComma(ReaderBasedJsonParser.java:2429)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextFieldName(ReaderBasedJsonParser.java:924)
+	at com.fasterxml.jackson.databind.deser.std.MapDeserializer._readAndBindStringKeyMap(MapDeserializer.java:608)
+	at com.fasterxml.jackson.databind.deser.std.MapDeserializer.deserialize(MapDeserializer.java:450)
+	at com.fasterxml.jackson.databind.deser.std.MapDeserializer.deserialize(MapDeserializer.java:31)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:342)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4979)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3895)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3863)
+	at io.jsonwebtoken.impl.DefaultJwtParser.readValue(DefaultJwtParser.java:552)
+	... 36 common frames omitted
+2025-12-10 14:17:22.173 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-10 14:17:22.181 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-12-10 14:17:27.300 [main] INFO  com.example.TalisWebManagementApplication - Starting TalisWebManagementApplication using Java 21.0.8 with PID 4000 (D:\Code\Java_Code\Java_Web02\Talis-web-management\target\classes started by sun in D:\Code\Java_Code\Java_Web02)
+2025-12-10 14:17:27.302 [main] INFO  com.example.TalisWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-10 14:17:28.486 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-10 14:17:28.501 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-10 14:17:28.504 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-10 14:17:28.504 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2025-12-10 14:17:28.587 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-10 14:17:28.588 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1231 ms
+2025-12-10 14:17:29.508 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-10 14:17:29.533 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-12-10 14:17:29.541 [main] INFO  com.example.TalisWebManagementApplication - Started TalisWebManagementApplication in 2.803 seconds (process running for 4.043)
+2025-12-10 14:17:32.021 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-10 14:17:32.021 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-10 14:17:32.022 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-12-10 14:17:42.283 [http-nio-8080-exec-2] INFO  com.example.Filter.TokenFilter - token验证失败--拦截
+2025-12-10 14:17:45.760 [http-nio-8080-exec-2] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.lang.RuntimeException: io.jsonwebtoken.MalformedJwtException: Unable to read JSON value: {"alg":"HS256"|
+	at com.example.Filter.TokenFilter.doFilter(TokenFilter.java:44)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: io.jsonwebtoken.MalformedJwtException: Unable to read JSON value: {"alg":"HS256"|
+	at io.jsonwebtoken.impl.DefaultJwtParser.readValue(DefaultJwtParser.java:554)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:252)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541)
+	at com.example.Utils.JwtUtil.parseJwt(JwtUtil.java:68)
+	at com.example.Utils.JwtUtil.parseJwt(JwtUtil.java:56)
+	at com.example.Filter.TokenFilter.doFilter(TokenFilter.java:40)
+	... 30 common frames omitted
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unexpected character ('|' (code 124)): was expecting comma to separate Object entries
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 15]
+	at com.fasterxml.jackson.core.JsonParser._constructReadException(JsonParser.java:2672)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:742)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipComma(ReaderBasedJsonParser.java:2429)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextFieldName(ReaderBasedJsonParser.java:924)
+	at com.fasterxml.jackson.databind.deser.std.MapDeserializer._readAndBindStringKeyMap(MapDeserializer.java:608)
+	at com.fasterxml.jackson.databind.deser.std.MapDeserializer.deserialize(MapDeserializer.java:450)
+	at com.fasterxml.jackson.databind.deser.std.MapDeserializer.deserialize(MapDeserializer.java:31)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:342)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4979)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3895)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3863)
+	at io.jsonwebtoken.impl.DefaultJwtParser.readValue(DefaultJwtParser.java:552)
+	... 36 common frames omitted
+2025-12-10 14:19:13.010 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-10 14:19:13.021 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-12-10 14:19:17.729 [main] INFO  com.example.TalisWebManagementApplication - Starting TalisWebManagementApplication using Java 21.0.8 with PID 30916 (D:\Code\Java_Code\Java_Web02\Talis-web-management\target\classes started by sun in D:\Code\Java_Code\Java_Web02)
+2025-12-10 14:19:17.732 [main] INFO  com.example.TalisWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-10 14:19:18.882 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-10 14:19:18.896 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-10 14:19:18.897 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-10 14:19:18.899 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2025-12-10 14:19:18.975 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-10 14:19:18.975 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1194 ms
+2025-12-10 14:19:19.807 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-10 14:19:19.835 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-12-10 14:19:19.843 [main] INFO  com.example.TalisWebManagementApplication - Started TalisWebManagementApplication in 2.609 seconds (process running for 3.638)
+2025-12-10 14:19:23.588 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-10 14:19:23.588 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-10 14:19:23.589 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-12-10 14:19:29.200 [http-nio-8080-exec-2] INFO  com.example.Filter.TokenFilter - token验证失败--拦截
+2025-12-10 14:20:13.024 [http-nio-8080-exec-4] INFO  com.example.Filter.TokenFilter - token不存在--拦截
+2025-12-10 14:20:14.297 [http-nio-8080-exec-3] INFO  com.example.Filter.TokenFilter - 放行
+2025-12-10 14:20:14.333 [http-nio-8080-exec-3] INFO  com.example.controller.ReportController - 统计员工性别数据
+2025-12-10 14:20:14.335 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-10 14:20:14.357 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-12-10 14:20:14.769 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4b58d623
+2025-12-10 14:20:14.771 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-12-10 14:20:14.965 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-12-10 14:20:14.969 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-12-10 14:20:14.996 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-12-10 14:20:18.026 [main] INFO  com.example.TalisWebManagementApplication - Starting TalisWebManagementApplication using Java 21.0.8 with PID 19888 (D:\Code\Java_Code\Java_Web02\Talis-web-management\target\classes started by sun in D:\Code\Java_Code\Java_Web02)
+2025-12-10 14:20:18.028 [main] INFO  com.example.TalisWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-10 14:20:19.404 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-10 14:20:19.424 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-10 14:20:19.426 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-10 14:20:19.426 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2025-12-10 14:20:19.517 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-10 14:20:19.517 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1422 ms
+2025-12-10 14:20:20.459 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-10 14:20:20.483 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-12-10 14:20:20.491 [main] INFO  com.example.TalisWebManagementApplication - Started TalisWebManagementApplication in 2.991 seconds (process running for 4.321)
+2025-12-10 14:20:24.844 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-10 14:20:24.844 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-10 14:20:24.845 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-12-10 14:20:41.500 [http-nio-8080-exec-1] INFO  com.example.Filter.TokenFilter - 放行
+2025-12-10 14:20:41.629 [http-nio-8080-exec-1] INFO  com.example.controller.ReportController - 统计员工性别数据
+2025-12-10 14:20:41.720 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-12-10 14:20:44.123 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2bf1284
+2025-12-10 14:20:44.129 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-12-10 14:21:16.208 [http-nio-8080-exec-4] INFO  com.example.Filter.TokenFilter - token不存在--拦截
+2025-12-10 14:21:16.208 [http-nio-8080-exec-2] INFO  com.example.Filter.TokenFilter - token不存在--拦截
+2025-12-10 14:21:35.364 [http-nio-8080-exec-6] INFO  com.example.Filter.TokenFilter - 登录接口--放行
+2025-12-10 14:21:35.364 [http-nio-8080-exec-5] INFO  com.example.Filter.TokenFilter - 登录接口--放行
+2025-12-10 14:21:35.404 [http-nio-8080-exec-6] INFO  com.example.controller.LoginController - 登录： Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-12-10 14:21:35.404 [http-nio-8080-exec-5] INFO  com.example.controller.LoginController - 登录： Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-12-10 14:21:41.790 [http-nio-8080-exec-8] INFO  com.example.Filter.TokenFilter - 放行
+2025-12-10 14:21:41.790 [http-nio-8080-exec-7] INFO  com.example.Filter.TokenFilter - 放行
+2025-12-10 14:21:41.791 [http-nio-8080-exec-8] INFO  com.example.controller.EmpController - 查询员工列表
+2025-12-10 14:21:41.814 [http-nio-8080-exec-7] INFO  com.example.controller.ClazzController - 查询全部班级信息
+2025-12-10 14:21:41.816 [http-nio-8080-exec-7] INFO  com.example.service.impl.ClazzServiceimpl - 查询全部班级信息: ClazzQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2025-12-10 14:21:42.689 [http-nio-8080-exec-10] INFO  com.example.Filter.TokenFilter - 放行
+2025-12-10 14:21:42.689 [http-nio-8080-exec-9] INFO  com.example.Filter.TokenFilter - 放行
+2025-12-10 14:21:42.690 [http-nio-8080-exec-10] INFO  com.example.controller.ClazzController - 查询全部班级列表
+2025-12-10 14:21:42.692 [http-nio-8080-exec-9] INFO  com.example.controller.StudentController - 分页查询学生信息, StuQueryParm(name=, degree=null, clazzId=null, page=1, pageSize=10)
+2025-12-10 14:21:42.693 [http-nio-8080-exec-9] INFO  com.example.service.impl.StudentServiceimpl - 查询全部班级信息: StuQueryParm(name=, degree=null, clazzId=null, page=1, pageSize=10)
+2025-12-10 14:21:43.554 [http-nio-8080-exec-3] INFO  com.example.Filter.TokenFilter - 放行
+2025-12-10 14:21:43.556 [http-nio-8080-exec-3] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-10 14:21:46.901 [http-nio-8080-exec-2] INFO  com.example.Filter.TokenFilter - 放行
+2025-12-10 14:21:46.901 [http-nio-8080-exec-4] INFO  com.example.Filter.TokenFilter - 放行
+2025-12-10 14:21:46.902 [http-nio-8080-exec-4] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-10 14:21:46.904 [http-nio-8080-exec-2] INFO  com.example.controller.EmpController - 查询全部员工信息, EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-12-10 14:21:54.563 [http-nio-8080-exec-5] INFO  com.example.Filter.TokenFilter - 放行
+2025-12-10 14:21:54.563 [http-nio-8080-exec-5] INFO  com.example.controller.ReportController - 统计各个职位的员工人数
+2025-12-10 14:21:54.574 [http-nio-8080-exec-6] INFO  com.example.Filter.TokenFilter - 放行
+2025-12-10 14:21:54.574 [http-nio-8080-exec-6] INFO  com.example.controller.ReportController - 统计员工性别数据
+2025-12-10 14:21:55.160 [http-nio-8080-exec-8] INFO  com.example.Filter.TokenFilter - 放行
+2025-12-10 14:21:55.162 [http-nio-8080-exec-7] INFO  com.example.Filter.TokenFilter - 放行
+2025-12-10 14:21:55.162 [http-nio-8080-exec-8] INFO  com.example.controller.ReportController - 统计班级学生数据
+2025-12-10 14:21:55.164 [http-nio-8080-exec-7] INFO  com.example.controller.ReportController - 统计学生学历数据
+2025-12-10 14:21:56.046 [http-nio-8080-exec-10] INFO  com.example.Filter.TokenFilter - 放行
+2025-12-10 14:21:56.059 [http-nio-8080-exec-10] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: No static resource log/page.
+2025-12-10 14:21:58.541 [http-nio-8080-exec-3] INFO  com.example.Filter.TokenFilter - 放行
+2025-12-10 14:21:58.541 [http-nio-8080-exec-9] INFO  com.example.Filter.TokenFilter - 放行
+2025-12-10 14:21:58.543 [http-nio-8080-exec-3] INFO  com.example.controller.ClazzController - 查询全部班级列表
+2025-12-10 14:21:58.544 [http-nio-8080-exec-9] INFO  com.example.controller.StudentController - 分页查询学生信息, StuQueryParm(name=, degree=null, clazzId=null, page=1, pageSize=10)
+2025-12-10 14:21:58.544 [http-nio-8080-exec-9] INFO  com.example.service.impl.StudentServiceimpl - 查询全部班级信息: StuQueryParm(name=, degree=null, clazzId=null, page=1, pageSize=10)
+2025-12-10 14:22:05.302 [http-nio-8080-exec-1] INFO  com.example.Filter.TokenFilter - token不存在--拦截
+2025-12-10 14:22:05.302 [http-nio-8080-exec-4] INFO  com.example.Filter.TokenFilter - token不存在--拦截
+2025-12-10 14:22:12.690 [http-nio-8080-exec-2] INFO  com.example.Filter.TokenFilter - token不存在--拦截
+2025-12-10 14:22:12.691 [http-nio-8080-exec-5] INFO  com.example.Filter.TokenFilter - token不存在--拦截
+2025-12-10 14:22:25.230 [http-nio-8080-exec-6] INFO  com.example.Filter.TokenFilter - 登录接口--放行
+2025-12-10 14:22:25.232 [http-nio-8080-exec-6] INFO  com.example.controller.LoginController - 登录： Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-12-10 14:22:28.294 [http-nio-8080-exec-7] INFO  com.example.Filter.TokenFilter - 放行
+2025-12-10 14:22:28.295 [http-nio-8080-exec-8] INFO  com.example.Filter.TokenFilter - 放行
+2025-12-10 14:22:28.295 [http-nio-8080-exec-8] INFO  com.example.controller.ClazzController - 查询全部班级列表
+2025-12-10 14:22:28.296 [http-nio-8080-exec-7] INFO  com.example.controller.StudentController - 分页查询学生信息, StuQueryParm(name=, degree=null, clazzId=null, page=1, pageSize=10)
+2025-12-10 14:22:28.296 [http-nio-8080-exec-7] INFO  com.example.service.impl.StudentServiceimpl - 查询全部班级信息: StuQueryParm(name=, degree=null, clazzId=null, page=1, pageSize=10)
+2025-12-10 14:22:28.882 [http-nio-8080-exec-10] INFO  com.example.Filter.TokenFilter - 放行
+2025-12-10 14:22:28.882 [http-nio-8080-exec-3] INFO  com.example.Filter.TokenFilter - 放行
+2025-12-10 14:22:28.884 [http-nio-8080-exec-3] INFO  com.example.controller.EmpController - 查询员工列表
+2025-12-10 14:22:28.884 [http-nio-8080-exec-10] INFO  com.example.controller.ClazzController - 查询全部班级信息
+2025-12-10 14:22:28.884 [http-nio-8080-exec-10] INFO  com.example.service.impl.ClazzServiceimpl - 查询全部班级信息: ClazzQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2025-12-10 14:22:29.788 [http-nio-8080-exec-9] INFO  com.example.Filter.TokenFilter - 放行
+2025-12-10 14:22:29.789 [http-nio-8080-exec-9] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-10 14:22:30.248 [http-nio-8080-exec-4] INFO  com.example.Filter.TokenFilter - 放行
+2025-12-10 14:22:30.249 [http-nio-8080-exec-1] INFO  com.example.Filter.TokenFilter - 放行
+2025-12-10 14:22:30.249 [http-nio-8080-exec-4] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-10 14:22:30.250 [http-nio-8080-exec-1] INFO  com.example.controller.EmpController - 查询全部员工信息, EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-12-10 14:22:31.135 [http-nio-8080-exec-2] INFO  com.example.Filter.TokenFilter - 放行
+2025-12-10 14:22:31.136 [http-nio-8080-exec-2] INFO  com.example.controller.ReportController - 统计各个职位的员工人数
+2025-12-10 14:22:31.141 [http-nio-8080-exec-5] INFO  com.example.Filter.TokenFilter - 放行
+2025-12-10 14:22:31.143 [http-nio-8080-exec-5] INFO  com.example.controller.ReportController - 统计员工性别数据
+2025-12-10 14:22:31.473 [http-nio-8080-exec-6] INFO  com.example.Filter.TokenFilter - 放行
+2025-12-10 14:22:31.475 [http-nio-8080-exec-6] INFO  com.example.controller.ReportController - 统计班级学生数据
+2025-12-10 14:22:31.476 [http-nio-8080-exec-8] INFO  com.example.Filter.TokenFilter - 放行
+2025-12-10 14:22:31.477 [http-nio-8080-exec-8] INFO  com.example.controller.ReportController - 统计学生学历数据
+2025-12-10 14:25:11.758 [http-nio-8080-exec-7] INFO  com.example.Filter.TokenFilter - token不存在--拦截
+2025-12-10 14:30:41.831 [http-nio-8080-exec-10] INFO  com.example.Filter.TokenFilter - token不存在--拦截
+2025-12-10 14:36:11.906 [http-nio-8080-exec-4] INFO  com.example.Filter.TokenFilter - token不存在--拦截
+2025-12-10 14:50:32.214 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-10 14:50:32.225 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-12-10 14:50:32.230 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-12-10 14:50:32.236 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-12-10 14:50:38.474 [main] INFO  com.example.TalisWebManagementApplication - Starting TalisWebManagementApplication using Java 21.0.8 with PID 9724 (D:\Code\Java_Code\Java_Web02\Talis-web-management\target\classes started by sun in D:\Code\Java_Code\Java_Web02)
+2025-12-10 14:50:38.476 [main] INFO  com.example.TalisWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-10 14:50:39.769 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-10 14:50:39.786 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-10 14:50:39.787 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-10 14:50:39.789 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2025-12-10 14:50:39.890 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-10 14:50:39.891 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1362 ms
+2025-12-10 14:50:40.922 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-10 14:50:40.954 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-12-10 14:50:40.964 [main] INFO  com.example.TalisWebManagementApplication - Started TalisWebManagementApplication in 2.994 seconds (process running for 4.68)
+2025-12-10 14:51:00.161 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-10 14:51:00.161 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-10 14:51:00.163 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-12-10 14:51:05.713 [http-nio-8080-exec-2] INFO  com.example.interceptor.Intercoptor - 拦截请求---preHandle
+2025-12-10 14:51:37.515 [http-nio-8080-exec-2] INFO  com.example.controller.LoginController - 登录： Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-12-10 14:51:40.094 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-12-10 14:51:42.654 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2d2d6b5e
+2025-12-10 14:51:42.660 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-12-10 14:51:53.955 [http-nio-8080-exec-2] INFO  com.example.interceptor.Intercoptor - 拦截请求---postHandle
+2025-12-10 14:51:57.032 [http-nio-8080-exec-2] INFO  com.example.interceptor.Intercoptor - 拦截请求---afterCompletion
+2025-12-10 14:53:15.326 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-10 14:53:15.337 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-12-10 14:53:15.342 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-12-10 14:53:15.349 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-12-10 14:53:20.539 [main] INFO  com.example.TalisWebManagementApplication - Starting TalisWebManagementApplication using Java 21.0.8 with PID 29360 (D:\Code\Java_Code\Java_Web02\Talis-web-management\target\classes started by sun in D:\Code\Java_Code\Java_Web02)
+2025-12-10 14:53:20.542 [main] INFO  com.example.TalisWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-10 14:53:21.864 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-10 14:53:21.885 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-10 14:53:21.887 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-10 14:53:21.887 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2025-12-10 14:53:22.008 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-10 14:53:22.008 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1413 ms
+2025-12-10 14:53:23.015 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-10 14:53:23.041 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-12-10 14:53:23.061 [main] INFO  com.example.TalisWebManagementApplication - Started TalisWebManagementApplication in 3.118 seconds (process running for 4.479)
+2025-12-10 14:53:25.269 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-10 14:53:25.269 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-10 14:53:25.270 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-12-10 14:53:28.664 [http-nio-8080-exec-1] INFO  com.example.interceptor.Intercoptor - 拦截请求---preHandle
+2025-12-10 14:53:40.288 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-10 14:53:40.306 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-12-10 14:53:44.930 [main] INFO  com.example.TalisWebManagementApplication - Starting TalisWebManagementApplication using Java 21.0.8 with PID 24592 (D:\Code\Java_Code\Java_Web02\Talis-web-management\target\classes started by sun in D:\Code\Java_Code\Java_Web02)
+2025-12-10 14:53:44.932 [main] INFO  com.example.TalisWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-10 14:53:46.215 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-10 14:53:46.231 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-10 14:53:46.232 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-10 14:53:46.233 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2025-12-10 14:53:46.308 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-10 14:53:46.308 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1327 ms
+2025-12-10 14:53:47.183 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-10 14:53:47.204 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-12-10 14:53:47.212 [main] INFO  com.example.TalisWebManagementApplication - Started TalisWebManagementApplication in 2.795 seconds (process running for 3.898)
+2025-12-10 14:55:39.121 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-10 14:55:39.134 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-12-10 14:59:47.380 [main] INFO  com.example.TalisWebManagementApplication - Starting TalisWebManagementApplication using Java 21.0.8 with PID 30648 (D:\Code\Java_Code\Java_Web02\Talis-web-management\target\classes started by sun in D:\Code\Java_Code\Java_Web02)
+2025-12-10 14:59:47.382 [main] INFO  com.example.TalisWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-10 14:59:48.530 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-10 14:59:48.547 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-10 14:59:48.549 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-10 14:59:48.549 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2025-12-10 14:59:48.624 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-10 14:59:48.624 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1199 ms
+2025-12-10 14:59:49.461 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-10 14:59:49.490 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-12-10 14:59:49.498 [main] INFO  com.example.TalisWebManagementApplication - Started TalisWebManagementApplication in 2.601 seconds (process running for 3.656)
+2025-12-10 14:59:53.994 [http-nio-8080-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-10 14:59:53.994 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-10 14:59:53.995 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-12-10 14:59:54.134 [http-nio-8080-exec-3] INFO  com.example.controller.LoginController - 登录： Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-12-10 14:59:54.172 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-12-10 14:59:54.591 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5deb002f
+2025-12-10 14:59:54.594 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-12-10 15:00:04.716 [http-nio-8080-exec-4] INFO  com.example.interceptor.TokenIntercoptor - token不存在--拦截
+2025-12-10 15:00:39.957 [http-nio-8080-exec-2] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---preHandle
+2025-12-10 15:00:39.961 [http-nio-8080-exec-2] INFO  com.example.controller.EmpController - 查询员工id信息: 1
+2025-12-10 15:00:40.023 [http-nio-8080-exec-2] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---postHandle
+2025-12-10 15:00:40.023 [http-nio-8080-exec-2] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---afterCompletion
+2025-12-10 15:00:58.161 [http-nio-8080-exec-5] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---preHandle
+2025-12-10 15:00:58.161 [http-nio-8080-exec-7] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---preHandle
+2025-12-10 15:00:58.161 [http-nio-8080-exec-7] INFO  com.example.controller.EmpController - 查询员工列表
+2025-12-10 15:00:58.175 [http-nio-8080-exec-5] INFO  com.example.controller.ClazzController - 查询全部班级信息
+2025-12-10 15:00:58.177 [http-nio-8080-exec-5] INFO  com.example.service.impl.ClazzServiceimpl - 查询全部班级信息: ClazzQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2025-12-10 15:00:58.191 [http-nio-8080-exec-7] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---postHandle
+2025-12-10 15:00:58.191 [http-nio-8080-exec-7] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---afterCompletion
+2025-12-10 15:00:58.321 [http-nio-8080-exec-5] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---postHandle
+2025-12-10 15:00:58.321 [http-nio-8080-exec-5] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---afterCompletion
+2025-12-10 15:00:58.432 [http-nio-8080-exec-8] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---preHandle
+2025-12-10 15:00:58.432 [http-nio-8080-exec-8] INFO  com.example.controller.ClazzController - 查询全部班级列表
+2025-12-10 15:00:58.432 [http-nio-8080-exec-6] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---preHandle
+2025-12-10 15:00:58.434 [http-nio-8080-exec-6] INFO  com.example.controller.StudentController - 分页查询学生信息, StuQueryParm(name=, degree=null, clazzId=null, page=1, pageSize=10)
+2025-12-10 15:00:58.435 [http-nio-8080-exec-6] INFO  com.example.service.impl.StudentServiceimpl - 查询全部班级信息: StuQueryParm(name=, degree=null, clazzId=null, page=1, pageSize=10)
+2025-12-10 15:00:58.439 [http-nio-8080-exec-8] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---postHandle
+2025-12-10 15:00:58.440 [http-nio-8080-exec-8] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---afterCompletion
+2025-12-10 15:00:58.464 [http-nio-8080-exec-6] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---postHandle
+2025-12-10 15:00:58.464 [http-nio-8080-exec-6] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---afterCompletion
+2025-12-10 15:01:07.109 [http-nio-8080-exec-9] INFO  com.example.interceptor.TokenIntercoptor - token不存在--拦截
+2025-12-10 15:01:07.109 [http-nio-8080-exec-10] INFO  com.example.interceptor.TokenIntercoptor - token不存在--拦截
+2025-12-10 15:01:11.391 [http-nio-8080-exec-1] INFO  com.example.interceptor.TokenIntercoptor - token不存在--拦截
+2025-12-10 15:01:11.395 [http-nio-8080-exec-3] INFO  com.example.interceptor.TokenIntercoptor - token不存在--拦截
+2025-12-10 15:01:13.658 [http-nio-8080-exec-2] INFO  com.example.interceptor.TokenIntercoptor - token不存在--拦截
+2025-12-10 15:01:13.658 [http-nio-8080-exec-4] INFO  com.example.interceptor.TokenIntercoptor - token不存在--拦截
+2025-12-10 15:01:20.809 [http-nio-8080-exec-7] INFO  com.example.interceptor.TokenIntercoptor - token不存在--拦截
+2025-12-10 15:01:20.809 [http-nio-8080-exec-5] INFO  com.example.interceptor.TokenIntercoptor - token不存在--拦截
+2025-12-10 15:01:27.113 [http-nio-8080-exec-8] INFO  com.example.controller.LoginController - 登录： Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-12-10 15:01:30.628 [http-nio-8080-exec-6] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---preHandle
+2025-12-10 15:01:30.631 [http-nio-8080-exec-6] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-10 15:01:30.640 [http-nio-8080-exec-6] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---postHandle
+2025-12-10 15:01:30.641 [http-nio-8080-exec-6] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---afterCompletion
+2025-12-10 15:01:31.149 [http-nio-8080-exec-9] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---preHandle
+2025-12-10 15:01:31.149 [http-nio-8080-exec-9] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-10 15:01:31.149 [http-nio-8080-exec-10] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---preHandle
+2025-12-10 15:01:31.155 [http-nio-8080-exec-10] INFO  com.example.controller.EmpController - 查询全部员工信息, EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-12-10 15:01:31.157 [http-nio-8080-exec-9] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---postHandle
+2025-12-10 15:01:31.157 [http-nio-8080-exec-9] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---afterCompletion
+2025-12-10 15:01:31.174 [http-nio-8080-exec-10] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---postHandle
+2025-12-10 15:01:31.174 [http-nio-8080-exec-10] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---afterCompletion
+2025-12-10 15:01:32.119 [http-nio-8080-exec-1] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---preHandle
+2025-12-10 15:01:32.119 [http-nio-8080-exec-1] INFO  com.example.controller.ReportController - 统计各个职位的员工人数
+2025-12-10 15:01:32.126 [http-nio-8080-exec-3] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---preHandle
+2025-12-10 15:01:32.126 [http-nio-8080-exec-3] INFO  com.example.controller.ReportController - 统计员工性别数据
+2025-12-10 15:01:32.133 [http-nio-8080-exec-1] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---postHandle
+2025-12-10 15:01:32.134 [http-nio-8080-exec-1] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---afterCompletion
+2025-12-10 15:01:32.134 [http-nio-8080-exec-3] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---postHandle
+2025-12-10 15:01:32.134 [http-nio-8080-exec-3] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---afterCompletion
+2025-12-10 15:01:32.526 [http-nio-8080-exec-2] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---preHandle
+2025-12-10 15:01:32.526 [http-nio-8080-exec-2] INFO  com.example.controller.ReportController - 统计班级学生数据
+2025-12-10 15:01:32.527 [http-nio-8080-exec-4] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---preHandle
+2025-12-10 15:01:32.528 [http-nio-8080-exec-4] INFO  com.example.controller.ReportController - 统计学生学历数据
+2025-12-10 15:01:32.536 [http-nio-8080-exec-4] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---postHandle
+2025-12-10 15:01:32.536 [http-nio-8080-exec-4] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---afterCompletion
+2025-12-10 15:01:32.537 [http-nio-8080-exec-2] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---postHandle
+2025-12-10 15:01:32.537 [http-nio-8080-exec-2] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---afterCompletion
+2025-12-10 15:01:34.058 [http-nio-8080-exec-5] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---preHandle
+2025-12-10 15:01:34.058 [http-nio-8080-exec-7] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---preHandle
+2025-12-10 15:01:34.059 [http-nio-8080-exec-7] INFO  com.example.controller.EmpController - 查询员工列表
+2025-12-10 15:01:34.060 [http-nio-8080-exec-5] INFO  com.example.controller.ClazzController - 查询全部班级信息
+2025-12-10 15:01:34.060 [http-nio-8080-exec-5] INFO  com.example.service.impl.ClazzServiceimpl - 查询全部班级信息: ClazzQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2025-12-10 15:01:34.086 [http-nio-8080-exec-7] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---postHandle
+2025-12-10 15:01:34.087 [http-nio-8080-exec-7] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---afterCompletion
+2025-12-10 15:01:34.098 [http-nio-8080-exec-5] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---postHandle
+2025-12-10 15:01:34.098 [http-nio-8080-exec-5] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---afterCompletion
+2025-12-10 15:01:34.425 [http-nio-8080-exec-6] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---preHandle
+2025-12-10 15:01:34.425 [http-nio-8080-exec-8] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---preHandle
+2025-12-10 15:01:34.425 [http-nio-8080-exec-8] INFO  com.example.controller.ClazzController - 查询全部班级列表
+2025-12-10 15:01:34.427 [http-nio-8080-exec-6] INFO  com.example.controller.StudentController - 分页查询学生信息, StuQueryParm(name=, degree=null, clazzId=null, page=1, pageSize=10)
+2025-12-10 15:01:34.427 [http-nio-8080-exec-6] INFO  com.example.service.impl.StudentServiceimpl - 查询全部班级信息: StuQueryParm(name=, degree=null, clazzId=null, page=1, pageSize=10)
+2025-12-10 15:01:34.431 [http-nio-8080-exec-8] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---postHandle
+2025-12-10 15:01:34.432 [http-nio-8080-exec-8] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---afterCompletion
+2025-12-10 15:01:34.441 [http-nio-8080-exec-6] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---postHandle
+2025-12-10 15:01:34.441 [http-nio-8080-exec-6] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---afterCompletion
+2025-12-10 15:01:35.151 [http-nio-8080-exec-9] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---preHandle
+2025-12-10 15:01:35.151 [http-nio-8080-exec-9] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-10 15:01:35.159 [http-nio-8080-exec-9] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---postHandle
+2025-12-10 15:01:35.159 [http-nio-8080-exec-9] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---afterCompletion
+2025-12-10 15:01:35.505 [http-nio-8080-exec-3] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---preHandle
+2025-12-10 15:01:35.505 [http-nio-8080-exec-10] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---preHandle
+2025-12-10 15:01:35.505 [http-nio-8080-exec-3] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-10 15:01:35.506 [http-nio-8080-exec-10] INFO  com.example.controller.EmpController - 查询全部员工信息, EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-12-10 15:01:35.510 [http-nio-8080-exec-3] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---postHandle
+2025-12-10 15:01:35.510 [http-nio-8080-exec-3] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---afterCompletion
+2025-12-10 15:01:35.521 [http-nio-8080-exec-10] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---postHandle
+2025-12-10 15:01:35.521 [http-nio-8080-exec-10] INFO  com.example.interceptor.TokenIntercoptor - 拦截请求---afterCompletion
