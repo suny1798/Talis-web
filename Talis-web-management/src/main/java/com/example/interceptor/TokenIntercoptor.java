@@ -13,13 +13,13 @@ import org.springframework.web.servlet.ModelAndView;
 public class TokenIntercoptor implements HandlerInterceptor{
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
-        //1. 获取请求路径
-        String path = request.getRequestURI();
-        //2. 判断请求路径是否为登录接口
-        if (path.contains("/login")){
-            log.info("登录接口--放行");
-            return true;
-        }
+//        1. 获取请求路径
+//        String path = request.getRequestURI();
+//        2. 判断请求路径是否为登录接口
+//        if (path.contains("/login")){
+//            log.info("登录接口--放行");
+//            return true;
+//        }
         //3. 获取token
         String token = request.getHeader("token");
 
