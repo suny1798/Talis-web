@@ -9,8 +9,15 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$PROJECT_DIR$/../../Tools/apache-maven-3.9.11/mvn-repo/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar" />
+          <entry name="$PROJECT_DIR$/../../Tools/apache-maven-3.9.11/mvn-repo/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar" />
         </processorPath>
         <module name="Talis-web-management" />
+      </profile>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboot-aop-quickstart" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="21" />
@@ -18,6 +25,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Talis-web-management" options="-parameters" />
+      <module name="springboot-aop-quickstart" options="-parameters" />
     </option>
   </component>
 </project>
