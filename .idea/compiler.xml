@@ -27,6 +27,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Talis-web-management" options="-parameters" />
       <module name="springboot-aop-quickstart" options="-parameters" />
+      <module name="talis-pojo" options="-parameters" />
+      <module name="talis-utils" options="-parameters" />
     </option>
   </component>
 </project>

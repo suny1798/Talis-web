@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/springboot-aop-quickstart/pom.xml" />
         <option value="$PROJECT_DIR$/talis-pojo/pom.xml" />
         <option value="$PROJECT_DIR$/talis-utils/pom.xml" />
+        <option value="$PROJECT_DIR$/talis-parent/pom.xml" />
       </list>
     </option>
   </component>
