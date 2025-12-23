@@ -1,0 +1,547 @@
+2025-12-17 09:54:36.953 [main] INFO  com.example.TalisWebManagementApplication - Starting TalisWebManagementApplication using Java 21.0.8 with PID 10500 (D:\Code\Java_Code\Java_Web02\Talis-web-management\target\classes started by sun in D:\Code\Java_Code\Java_Web02)
+2025-12-17 09:54:36.956 [main] INFO  com.example.TalisWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-17 09:54:38.671 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-17 09:54:38.690 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-17 09:54:38.691 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-17 09:54:38.692 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2025-12-17 09:54:38.778 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-17 09:54:38.779 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1763 ms
+2025-12-17 09:54:39.813 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-17 09:54:39.846 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-12-17 09:54:39.858 [main] INFO  com.example.TalisWebManagementApplication - Started TalisWebManagementApplication in 3.504 seconds (process running for 5.566)
+2025-12-17 09:54:54.075 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-17 09:54:54.113 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-12-17 17:03:55.702 [main] INFO  com.example.TalisWebManagementApplication - Starting TalisWebManagementApplication using Java 21.0.8 with PID 37584 (D:\Code\Java_Code\Java_Web02\Talis-web-management\target\classes started by sun in D:\Code\Java_Code\Java_Web02)
+2025-12-17 17:03:55.712 [main] INFO  com.example.TalisWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-17 17:03:57.713 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-17 17:03:57.735 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-17 17:03:57.737 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-17 17:03:57.737 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2025-12-17 17:03:57.855 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-17 17:03:57.855 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2074 ms
+2025-12-17 17:03:59.169 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-17 17:03:59.207 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-12-17 17:03:59.217 [main] INFO  com.example.TalisWebManagementApplication - Started TalisWebManagementApplication in 4.231 seconds (process running for 6.854)
+2025-12-17 17:05:38.657 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-17 17:05:38.672 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-12-17 17:05:44.566 [main] INFO  com.example.TalisWebManagementApplication - Starting TalisWebManagementApplication using Java 21.0.8 with PID 32972 (D:\Code\Java_Code\Java_Web02\Talis-web-management\target\classes started by sun in D:\Code\Java_Code\Java_Web02)
+2025-12-17 17:05:44.568 [main] INFO  com.example.TalisWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-17 17:05:46.220 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-17 17:05:46.246 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-17 17:05:46.248 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-17 17:05:46.248 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2025-12-17 17:05:46.318 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-17 17:05:46.318 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1697 ms
+2025-12-17 17:05:46.577 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webConfig': Unsatisfied dependency expressed through field 'interceptor': No qualifying bean of type 'com.example.interceptor.TokenIntercoptor' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2025-12-17 17:05:46.582 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-12-17 17:05:46.599 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-17 17:05:46.639 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field interceptor in com.example.config.webConfig required a bean of type 'com.example.interceptor.TokenIntercoptor' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.interceptor.TokenIntercoptor' in your configuration.
+
+2025-12-17 17:06:24.296 [main] INFO  com.example.TalisWebManagementApplication - Starting TalisWebManagementApplication using Java 21.0.8 with PID 37816 (D:\Code\Java_Code\Java_Web02\Talis-web-management\target\classes started by sun in D:\Code\Java_Code\Java_Web02)
+2025-12-17 17:06:24.300 [main] INFO  com.example.TalisWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-17 17:06:26.553 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-17 17:06:26.581 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-17 17:06:26.583 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-17 17:06:26.584 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2025-12-17 17:06:26.711 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-17 17:06:26.711 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2329 ms
+2025-12-17 17:06:28.105 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-17 17:06:28.139 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-12-17 17:06:28.150 [main] INFO  com.example.TalisWebManagementApplication - Started TalisWebManagementApplication in 4.622 seconds (process running for 6.328)
+2025-12-17 17:06:40.807 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-17 17:06:40.807 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-17 17:06:40.810 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-12-17 17:06:40.848 [http-nio-8080-exec-1] INFO  com.example.interceptor.TokenIntercoptor - token不存在--拦截
+2025-12-17 17:06:43.814 [http-nio-8080-exec-2] INFO  com.example.interceptor.TokenIntercoptor - token不存在--拦截
+2025-12-17 17:06:46.405 [http-nio-8080-exec-6] INFO  com.example.interceptor.TokenIntercoptor - token不存在--拦截
+2025-12-17 17:06:49.396 [http-nio-8080-exec-7] INFO  com.example.interceptor.TokenIntercoptor - token不存在--拦截
+2025-12-17 17:07:39.776 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-17 17:07:39.789 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-12-17 17:07:45.202 [main] INFO  com.example.TalisWebManagementApplication - Starting TalisWebManagementApplication using Java 21.0.8 with PID 33352 (D:\Code\Java_Code\Java_Web02\Talis-web-management\target\classes started by sun in D:\Code\Java_Code\Java_Web02)
+2025-12-17 17:07:45.205 [main] INFO  com.example.TalisWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-17 17:07:47.067 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-17 17:07:47.086 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-17 17:07:47.088 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-17 17:07:47.088 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2025-12-17 17:07:47.199 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-17 17:07:47.200 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1925 ms
+2025-12-17 17:07:48.326 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-17 17:07:48.376 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-12-17 17:07:48.387 [main] INFO  com.example.TalisWebManagementApplication - Started TalisWebManagementApplication in 3.769 seconds (process running for 5.069)
+2025-12-17 17:07:56.670 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-17 17:07:56.670 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-17 17:07:56.672 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-12-17 17:07:56.723 [http-nio-8080-exec-1] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:07:56.757 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-12-17 17:07:57.497 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@346ef302
+2025-12-17 17:07:57.501 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-12-17 17:07:57.952 [http-nio-8080-exec-3] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:08:00.663 [http-nio-8080-exec-2] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:08:38.085 [http-nio-8080-exec-4] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:08:40.766 [http-nio-8080-exec-5] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:09:19.416 [http-nio-8080-exec-7] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:09:26.437 [http-nio-8080-exec-8] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:09:28.261 [http-nio-8080-exec-6] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:09:29.445 [http-nio-8080-exec-9] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:09:59.847 [http-nio-8080-exec-10] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:12:04.113 [http-nio-8080-exec-1] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:12:05.115 [http-nio-8080-exec-3] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:12:05.879 [http-nio-8080-exec-2] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:12:11.663 [http-nio-8080-exec-4] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:12:12.126 [http-nio-8080-exec-5] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:16:09.675 [http-nio-8080-exec-7] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:21:02.252 [http-nio-8080-exec-8] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:23:11.816 [http-nio-8080-exec-6] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:23:17.117 [http-nio-8080-exec-9] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:23:42.440 [http-nio-8080-exec-10] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:23:46.321 [http-nio-8080-exec-1] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:24:04.725 [http-nio-8080-exec-3] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:24:34.383 [http-nio-8080-exec-2] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:26:33.326 [http-nio-8080-exec-4] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:26:38.615 [http-nio-8080-exec-5] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:26:39.661 [http-nio-8080-exec-7] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:27:53.331 [http-nio-8080-exec-8] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:27:59.719 [http-nio-8080-exec-6] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:28:01.178 [http-nio-8080-exec-9] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:28:03.851 [http-nio-8080-exec-10] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:28:11.222 [http-nio-8080-exec-1] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:32:09.637 [http-nio-8080-exec-3] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:32:30.349 [http-nio-8080-exec-2] INFO  com.example.controller.DeptController - 添加部门信息:Dept(id=null, name=测试部qqq, createTime=null, updateTime=null)
+2025-12-17 17:32:30.446 [http-nio-8080-exec-2] WARN  com.example.aop.OperationLogAspect - token 解析失败: JWT String argument cannot be null or empty.
+2025-12-17 17:32:30.448 [http-nio-8080-exec-2] INFO  com.example.aop.OperationLogAspect - 操作日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-12-17T17:32:30.446301900, className=com.example.controller.DeptController, methodName=insert, methodParams=[Dept(id=null, name=测试部qqq, createTime=2025-12-17T17:32:30.350968700, updateTime=2025-12-17T17:32:30.350968700)], returnValue=Result(code=1, msg=success, data=null), costTime=51)
+2025-12-17 17:32:31.993 [http-nio-8080-exec-4] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:32:54.820 [http-nio-8080-exec-5] INFO  com.example.controller.DeptController - 添加部门信息:Dept(id=null, name=测试部3, createTime=null, updateTime=null)
+2025-12-17 17:32:54.828 [http-nio-8080-exec-5] WARN  com.example.aop.OperationLogAspect - token 解析失败: JWT String argument cannot be null or empty.
+2025-12-17 17:32:54.828 [http-nio-8080-exec-5] INFO  com.example.aop.OperationLogAspect - 操作日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-12-17T17:32:54.828090100, className=com.example.controller.DeptController, methodName=insert, methodParams=[Dept(id=null, name=测试部3, createTime=2025-12-17T17:32:54.820918, updateTime=2025-12-17T17:32:54.820918)], returnValue=Result(code=1, msg=success, data=null), costTime=7)
+2025-12-17 17:32:55.946 [http-nio-8080-exec-7] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:34:45.917 [http-nio-8080-exec-8] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:34:47.517 [http-nio-8080-exec-6] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:34:59.897 [http-nio-8080-exec-9] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:35:09.797 [http-nio-8080-exec-10] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:35:11.263 [http-nio-8080-exec-1] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:35:25.409 [http-nio-8080-exec-3] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:35:29.589 [http-nio-8080-exec-2] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:35:34.273 [http-nio-8080-exec-4] INFO  com.example.controller.DeptController - 添加部门信息:Dept(id=null, name=qwe, createTime=null, updateTime=null)
+2025-12-17 17:35:34.278 [http-nio-8080-exec-4] WARN  com.example.aop.OperationLogAspect - token 解析失败: JWT String argument cannot be null or empty.
+2025-12-17 17:35:34.278 [http-nio-8080-exec-4] INFO  com.example.aop.OperationLogAspect - 操作日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-12-17T17:35:34.278256900, className=com.example.controller.DeptController, methodName=insert, methodParams=[Dept(id=null, name=qwe, createTime=2025-12-17T17:35:34.273086200, updateTime=2025-12-17T17:35:34.273086200)], returnValue=Result(code=1, msg=success, data=null), costTime=5)
+2025-12-17 17:35:34.294 [http-nio-8080-exec-5] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:35:46.000 [http-nio-8080-exec-7] INFO  com.example.controller.DeptController - 添加部门信息:Dept(id=null, name=qwe, createTime=null, updateTime=null)
+2025-12-17 17:35:47.074 [http-nio-8080-exec-7] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'qwe' for key 'dept.name'
+### The error may exist in com/example/mapper/DeptMapper.java (best guess)
+### The error may involve com.example.mapper.DeptMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into dept(name, create_time, update_time) values(?, ?, ?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'qwe' for key 'dept.name'
+; Duplicate entry 'qwe' for key 'dept.name'
+2025-12-17 17:36:05.605 [http-nio-8080-exec-8] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:36:07.637 [http-nio-8080-exec-6] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:36:10.835 [http-nio-8080-exec-9] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:36:14.571 [http-nio-8080-exec-10] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:36:17.813 [http-nio-8080-exec-1] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:36:22.028 [http-nio-8080-exec-3] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:36:25.550 [http-nio-8080-exec-2] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:36:26.810 [http-nio-8080-exec-4] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:36:28.279 [http-nio-8080-exec-5] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:36:33.641 [http-nio-8080-exec-7] INFO  com.example.controller.DeptController - 添加部门信息:Dept(id=null, name=qwe, createTime=null, updateTime=null)
+2025-12-17 17:36:33.647 [http-nio-8080-exec-7] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'qwe' for key 'dept.name'
+### The error may exist in com/example/mapper/DeptMapper.java (best guess)
+### The error may involve com.example.mapper.DeptMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into dept(name, create_time, update_time) values(?, ?, ?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'qwe' for key 'dept.name'
+; Duplicate entry 'qwe' for key 'dept.name'
+2025-12-17 17:36:48.013 [http-nio-8080-exec-8] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:36:49.220 [http-nio-8080-exec-6] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:36:53.655 [http-nio-8080-exec-9] INFO  com.example.controller.DeptController - 添加部门信息:Dept(id=null, name=qwe, createTime=null, updateTime=null)
+2025-12-17 17:36:53.661 [http-nio-8080-exec-9] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'qwe' for key 'dept.name'
+### The error may exist in com/example/mapper/DeptMapper.java (best guess)
+### The error may involve com.example.mapper.DeptMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into dept(name, create_time, update_time) values(?, ?, ?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'qwe' for key 'dept.name'
+; Duplicate entry 'qwe' for key 'dept.name'
+2025-12-17 17:37:24.408 [http-nio-8080-exec-10] INFO  com.example.controller.DeptController - 添加部门信息:Dept(id=null, name=qwe, createTime=null, updateTime=null)
+2025-12-17 17:37:24.414 [http-nio-8080-exec-10] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'qwe' for key 'dept.name'
+### The error may exist in com/example/mapper/DeptMapper.java (best guess)
+### The error may involve com.example.mapper.DeptMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into dept(name, create_time, update_time) values(?, ?, ?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'qwe' for key 'dept.name'
+; Duplicate entry 'qwe' for key 'dept.name'
+2025-12-17 17:37:29.882 [http-nio-8080-exec-1] INFO  com.example.controller.DeptController - 添加部门信息:Dept(id=null, name=qwe, createTime=null, updateTime=null)
+2025-12-17 17:37:29.889 [http-nio-8080-exec-1] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'qwe' for key 'dept.name'
+### The error may exist in com/example/mapper/DeptMapper.java (best guess)
+### The error may involve com.example.mapper.DeptMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into dept(name, create_time, update_time) values(?, ?, ?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'qwe' for key 'dept.name'
+; Duplicate entry 'qwe' for key 'dept.name'
+2025-12-17 17:37:30.538 [http-nio-8080-exec-3] INFO  com.example.controller.DeptController - 添加部门信息:Dept(id=null, name=qwe, createTime=null, updateTime=null)
+2025-12-17 17:37:30.544 [http-nio-8080-exec-3] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'qwe' for key 'dept.name'
+### The error may exist in com/example/mapper/DeptMapper.java (best guess)
+### The error may involve com.example.mapper.DeptMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into dept(name, create_time, update_time) values(?, ?, ?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'qwe' for key 'dept.name'
+; Duplicate entry 'qwe' for key 'dept.name'
+2025-12-17 17:37:30.713 [http-nio-8080-exec-2] INFO  com.example.controller.DeptController - 添加部门信息:Dept(id=null, name=qwe, createTime=null, updateTime=null)
+2025-12-17 17:37:30.718 [http-nio-8080-exec-2] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'qwe' for key 'dept.name'
+### The error may exist in com/example/mapper/DeptMapper.java (best guess)
+### The error may involve com.example.mapper.DeptMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into dept(name, create_time, update_time) values(?, ?, ?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'qwe' for key 'dept.name'
+; Duplicate entry 'qwe' for key 'dept.name'
+2025-12-17 17:37:30.862 [http-nio-8080-exec-4] INFO  com.example.controller.DeptController - 添加部门信息:Dept(id=null, name=qwe, createTime=null, updateTime=null)
+2025-12-17 17:37:30.867 [http-nio-8080-exec-4] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'qwe' for key 'dept.name'
+### The error may exist in com/example/mapper/DeptMapper.java (best guess)
+### The error may involve com.example.mapper.DeptMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into dept(name, create_time, update_time) values(?, ?, ?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'qwe' for key 'dept.name'
+; Duplicate entry 'qwe' for key 'dept.name'
+2025-12-17 17:37:30.997 [http-nio-8080-exec-5] INFO  com.example.controller.DeptController - 添加部门信息:Dept(id=null, name=qwe, createTime=null, updateTime=null)
+2025-12-17 17:37:31.002 [http-nio-8080-exec-5] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'qwe' for key 'dept.name'
+### The error may exist in com/example/mapper/DeptMapper.java (best guess)
+### The error may involve com.example.mapper.DeptMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into dept(name, create_time, update_time) values(?, ?, ?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'qwe' for key 'dept.name'
+; Duplicate entry 'qwe' for key 'dept.name'
+2025-12-17 17:37:31.134 [http-nio-8080-exec-7] INFO  com.example.controller.DeptController - 添加部门信息:Dept(id=null, name=qwe, createTime=null, updateTime=null)
+2025-12-17 17:37:31.138 [http-nio-8080-exec-7] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'qwe' for key 'dept.name'
+### The error may exist in com/example/mapper/DeptMapper.java (best guess)
+### The error may involve com.example.mapper.DeptMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into dept(name, create_time, update_time) values(?, ?, ?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'qwe' for key 'dept.name'
+; Duplicate entry 'qwe' for key 'dept.name'
+2025-12-17 17:38:51.960 [http-nio-8080-exec-8] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:38:53.646 [http-nio-8080-exec-6] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:40:25.815 [http-nio-8080-exec-9] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:40:27.225 [http-nio-8080-exec-10] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:40:28.261 [http-nio-8080-exec-1] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:44:32.022 [http-nio-8080-exec-3] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:44:33.307 [http-nio-8080-exec-2] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:44:36.392 [http-nio-8080-exec-4] INFO  com.example.controller.DeptController - 添加部门信息:Dept(id=null, name=null, createTime=null, updateTime=null)
+2025-12-17 17:44:36.398 [http-nio-8080-exec-4] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'name' cannot be null
+### The error may exist in com/example/mapper/DeptMapper.java (best guess)
+### The error may involve com.example.mapper.DeptMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into dept(name, create_time, update_time) values(?, ?, ?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'name' cannot be null
+; Column 'name' cannot be null
+2025-12-17 17:44:53.337 [http-nio-8080-exec-5] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:45:01.968 [http-nio-8080-exec-7] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:45:08.087 [http-nio-8080-exec-8] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:45:22.733 [http-nio-8080-exec-6] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:45:26.535 [http-nio-8080-exec-9] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:45:37.299 [http-nio-8080-exec-10] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:45:42.138 [http-nio-8080-exec-1] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:45:43.994 [http-nio-8080-exec-3] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:45:46.112 [http-nio-8080-exec-2] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:45:47.741 [http-nio-8080-exec-4] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:47:05.898 [http-nio-8080-exec-5] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:47:16.544 [http-nio-8080-exec-7] INFO  com.example.controller.DeptController - 添加部门信息:Dept(id=null, name=a, createTime=null, updateTime=null)
+2025-12-17 17:47:16.551 [http-nio-8080-exec-7] WARN  com.example.aop.OperationLogAspect - token 解析失败: JWT String argument cannot be null or empty.
+2025-12-17 17:47:16.551 [http-nio-8080-exec-7] INFO  com.example.aop.OperationLogAspect - 操作日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-12-17T17:47:16.551166300, className=com.example.controller.DeptController, methodName=insert, methodParams=[Dept(id=null, name=a, createTime=2025-12-17T17:47:16.545153400, updateTime=2025-12-17T17:47:16.545153400)], returnValue=Result(code=1, msg=success, data=null), costTime=7)
+2025-12-17 17:47:16.567 [http-nio-8080-exec-8] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:51:13.011 [http-nio-8080-exec-6] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:51:16.054 [http-nio-8080-exec-9] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:52:02.098 [http-nio-8080-exec-10] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:52:04.184 [http-nio-8080-exec-1] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:52:11.013 [http-nio-8080-exec-3] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:52:54.179 [http-nio-8080-exec-2] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:53:22.308 [http-nio-8080-exec-4] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:53:26.862 [http-nio-8080-exec-5] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:53:28.978 [http-nio-8080-exec-7] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:53:30.879 [http-nio-8080-exec-8] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:53:35.765 [http-nio-8080-exec-6] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:53:39.461 [http-nio-8080-exec-9] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:53:43.843 [http-nio-8080-exec-10] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:53:45.000 [http-nio-8080-exec-1] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:53:53.743 [http-nio-8080-exec-3] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:53:55.178 [http-nio-8080-exec-2] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:55:31.019 [http-nio-8080-exec-4] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:55:41.702 [http-nio-8080-exec-5] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:55:46.884 [http-nio-8080-exec-7] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:55:49.616 [http-nio-8080-exec-8] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:56:01.932 [http-nio-8080-exec-6] INFO  com.example.controller.DeptController - 添加部门信息:Dept(id=null, name=123, createTime=null, updateTime=null)
+2025-12-17 17:56:01.939 [http-nio-8080-exec-6] WARN  com.example.aop.OperationLogAspect - token 解析失败: JWT String argument cannot be null or empty.
+2025-12-17 17:56:01.939 [http-nio-8080-exec-6] INFO  com.example.aop.OperationLogAspect - 操作日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-12-17T17:56:01.939714100, className=com.example.controller.DeptController, methodName=insert, methodParams=[Dept(id=null, name=123, createTime=2025-12-17T17:56:01.933697700, updateTime=2025-12-17T17:56:01.933697700)], returnValue=Result(code=1, msg=success, data=null), costTime=7)
+2025-12-17 17:56:01.954 [http-nio-8080-exec-9] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:56:43.413 [http-nio-8080-exec-10] INFO  com.example.controller.DeptController - 添加部门信息:Dept(id=null, name=111222, createTime=null, updateTime=null)
+2025-12-17 17:56:43.418 [http-nio-8080-exec-10] WARN  com.example.aop.OperationLogAspect - token 解析失败: JWT String argument cannot be null or empty.
+2025-12-17 17:56:43.418 [http-nio-8080-exec-10] INFO  com.example.aop.OperationLogAspect - 操作日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-12-17T17:56:43.418074300, className=com.example.controller.DeptController, methodName=insert, methodParams=[Dept(id=null, name=111222, createTime=2025-12-17T17:56:43.413951700, updateTime=2025-12-17T17:56:43.413951700)], returnValue=Result(code=1, msg=success, data=null), costTime=5)
+2025-12-17 17:56:43.433 [http-nio-8080-exec-1] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:57:33.789 [http-nio-8080-exec-3] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:57:50.356 [http-nio-8080-exec-2] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:59:20.487 [http-nio-8080-exec-4] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:59:33.459 [http-nio-8080-exec-5] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:59:36.008 [http-nio-8080-exec-7] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 17:59:37.133 [http-nio-8080-exec-8] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:01:34.136 [http-nio-8080-exec-6] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:01:37.168 [http-nio-8080-exec-9] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:01:40.729 [http-nio-8080-exec-10] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:01:41.629 [http-nio-8080-exec-1] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:03:44.132 [http-nio-8080-exec-3] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:03:47.310 [http-nio-8080-exec-2] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:03:51.151 [http-nio-8080-exec-4] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:03:52.757 [http-nio-8080-exec-5] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:03:55.595 [http-nio-8080-exec-7] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:03:57.885 [http-nio-8080-exec-8] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:04:01.210 [http-nio-8080-exec-6] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:04:08.829 [http-nio-8080-exec-9] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:04:18.070 [http-nio-8080-exec-10] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:04:19.912 [http-nio-8080-exec-1] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:04:32.168 [http-nio-8080-exec-3] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:05:37.036 [http-nio-8080-exec-2] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:05:40.570 [http-nio-8080-exec-4] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:05:48.717 [http-nio-8080-exec-5] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:05:52.000 [http-nio-8080-exec-7] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:06:01.681 [http-nio-8080-exec-8] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:06:03.153 [http-nio-8080-exec-6] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:06:04.611 [http-nio-8080-exec-9] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:06:08.872 [http-nio-8080-exec-10] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:06:19.472 [http-nio-8080-exec-1] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:06:36.863 [http-nio-8080-exec-3] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:06:37.691 [http-nio-8080-exec-2] INFO  com.example.controller.DeptController - 查询部门信息 id:31
+2025-12-17 18:06:39.732 [http-nio-8080-exec-4] INFO  com.example.controller.DeptController - 查询部门信息 id:33
+2025-12-17 18:06:42.494 [http-nio-8080-exec-5] INFO  com.example.controller.DeptController - 查询部门信息 id:16
+2025-12-17 18:06:46.942 [http-nio-8080-exec-7] INFO  com.example.controller.DeptController - 查询部门信息 id:33
+2025-12-17 18:06:48.943 [http-nio-8080-exec-8] INFO  com.example.controller.DeptController - 添加部门信息:Dept(id=33, name=111222qqq, createTime=2025-12-17T17:56:43, updateTime=2025-12-17T17:56:43)
+2025-12-17 18:06:48.949 [http-nio-8080-exec-8] WARN  com.example.aop.OperationLogAspect - token 解析失败: JWT String argument cannot be null or empty.
+2025-12-17 18:06:48.950 [http-nio-8080-exec-8] INFO  com.example.aop.OperationLogAspect - 操作日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-12-17T18:06:48.949550600, className=com.example.controller.DeptController, methodName=insert, methodParams=[Dept(id=33, name=111222qqq, createTime=2025-12-17T18:06:48.943793900, updateTime=2025-12-17T18:06:48.943793900)], returnValue=Result(code=1, msg=success, data=null), costTime=6)
+2025-12-17 18:06:48.968 [http-nio-8080-exec-6] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:06:51.270 [http-nio-8080-exec-9] INFO  com.example.controller.DeptController - 查询部门信息 id:34
+2025-12-17 18:07:00.466 [http-nio-8080-exec-10] INFO  com.example.controller.DeptController - 添加部门信息:Dept(id=34, name=qweqweqwe, createTime=2025-12-17T18:06:49, updateTime=2025-12-17T18:06:49)
+2025-12-17 18:07:00.473 [http-nio-8080-exec-10] WARN  com.example.aop.OperationLogAspect - token 解析失败: JWT String argument cannot be null or empty.
+2025-12-17 18:07:00.474 [http-nio-8080-exec-10] INFO  com.example.aop.OperationLogAspect - 操作日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-12-17T18:07:00.474623100, className=com.example.controller.DeptController, methodName=insert, methodParams=[Dept(id=34, name=qweqweqwe, createTime=2025-12-17T18:07:00.467569900, updateTime=2025-12-17T18:07:00.467569900)], returnValue=Result(code=1, msg=success, data=null), costTime=7)
+2025-12-17 18:07:00.487 [http-nio-8080-exec-1] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:07:12.586 [http-nio-8080-exec-3] INFO  com.example.controller.DeptController - 查询部门信息 id:35
+2025-12-17 18:15:22.217 [http-nio-8080-exec-2] INFO  com.example.controller.DeptController - 查询部门信息 id:6
+2025-12-17 18:15:43.675 [http-nio-8080-exec-4] INFO  com.example.controller.DeptController - 查询部门信息 id:16
+2025-12-17 18:15:49.277 [http-nio-8080-exec-5] INFO  com.example.controller.DeptController - 查询部门信息 id:3
+2025-12-17 18:16:10.023 [http-nio-8080-exec-7] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:16:12.500 [http-nio-8080-exec-8] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:16:28.506 [http-nio-8080-exec-6] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:16:30.787 [http-nio-8080-exec-9] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:16:32.082 [http-nio-8080-exec-10] INFO  com.example.controller.DeptController - 查询部门信息 id:3
+2025-12-17 18:16:37.632 [http-nio-8080-exec-1] INFO  com.example.controller.DeptController - 查询部门信息 id:16
+2025-12-17 18:16:39.789 [http-nio-8080-exec-3] INFO  com.example.controller.DeptController - 查询部门信息 id:3
+2025-12-17 18:18:04.085 [http-nio-8080-exec-2] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:18:14.504 [http-nio-8080-exec-4] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:18:23.835 [http-nio-8080-exec-5] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:18:26.889 [http-nio-8080-exec-7] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:18:33.604 [http-nio-8080-exec-8] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:18:39.318 [http-nio-8080-exec-6] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:18:45.685 [http-nio-8080-exec-9] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:21:05.299 [http-nio-8080-exec-10] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:21:07.630 [http-nio-8080-exec-1] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:21:16.514 [http-nio-8080-exec-3] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:21:26.886 [http-nio-8080-exec-2] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:21:31.007 [http-nio-8080-exec-4] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:21:36.809 [http-nio-8080-exec-5] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:21:40.540 [http-nio-8080-exec-7] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:21:45.349 [http-nio-8080-exec-8] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:21:49.234 [http-nio-8080-exec-6] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:21:51.294 [http-nio-8080-exec-9] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:21:53.860 [http-nio-8080-exec-10] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:22:08.988 [http-nio-8080-exec-1] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:22:11.594 [http-nio-8080-exec-3] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:22:33.009 [http-nio-8080-exec-2] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:22:47.024 [http-nio-8080-exec-4] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:22:51.009 [http-nio-8080-exec-5] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:22:56.372 [http-nio-8080-exec-7] INFO  com.example.controller.DeptController - 添加部门信息:Dept(id=null, name=888, createTime=null, updateTime=null)
+2025-12-17 18:22:56.382 [http-nio-8080-exec-7] WARN  com.example.aop.OperationLogAspect - token 解析失败: JWT String argument cannot be null or empty.
+2025-12-17 18:22:56.382 [http-nio-8080-exec-7] INFO  com.example.aop.OperationLogAspect - 操作日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-12-17T18:22:56.382004800, className=com.example.controller.DeptController, methodName=insert, methodParams=[Dept(id=null, name=888, createTime=2025-12-17T18:22:56.372349, updateTime=2025-12-17T18:22:56.372349)], returnValue=Result(code=1, msg=success, data=null), costTime=10)
+2025-12-17 18:22:56.398 [http-nio-8080-exec-8] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:22:58.065 [http-nio-8080-exec-6] INFO  com.example.controller.DeptController - 查询部门信息 id:36
+2025-12-17 18:23:06.455 [http-nio-8080-exec-9] INFO  com.example.controller.DeptController - 修改部门信息:Dept(id=36, name=881, createTime=2025-12-17T18:22:56, updateTime=2025-12-17T18:22:56)
+2025-12-17 18:23:06.468 [http-nio-8080-exec-9] WARN  com.example.aop.OperationLogAspect - token 解析失败: JWT String argument cannot be null or empty.
+2025-12-17 18:23:06.468 [http-nio-8080-exec-9] INFO  com.example.aop.OperationLogAspect - 操作日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-12-17T18:23:06.468950900, className=com.example.controller.DeptController, methodName=update, methodParams=[Dept(id=36, name=881, createTime=2025-12-17T18:22:56, updateTime=2025-12-17T18:23:06.455407200)], returnValue=Result(code=1, msg=success, data=null), costTime=14)
+2025-12-17 18:23:06.484 [http-nio-8080-exec-10] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:23:08.592 [http-nio-8080-exec-1] INFO  com.example.controller.DeptController - 查询部门信息 id:36
+2025-12-17 18:23:11.661 [http-nio-8080-exec-3] INFO  com.example.controller.DeptController - 修改部门信息:Dept(id=36, name=82, createTime=2025-12-17T18:22:56, updateTime=2025-12-17T18:23:06)
+2025-12-17 18:23:11.671 [http-nio-8080-exec-3] WARN  com.example.aop.OperationLogAspect - token 解析失败: JWT String argument cannot be null or empty.
+2025-12-17 18:23:11.671 [http-nio-8080-exec-3] INFO  com.example.aop.OperationLogAspect - 操作日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-12-17T18:23:11.671276200, className=com.example.controller.DeptController, methodName=update, methodParams=[Dept(id=36, name=82, createTime=2025-12-17T18:22:56, updateTime=2025-12-17T18:23:11.661530)], returnValue=Result(code=1, msg=success, data=null), costTime=10)
+2025-12-17 18:23:11.688 [http-nio-8080-exec-2] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:23:33.695 [http-nio-8080-exec-4] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 18:23:35.509 [http-nio-8080-exec-5] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:22:35.074 [http-nio-8080-exec-7] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:22:35.925 [http-nio-8080-exec-8] INFO  com.example.controller.DeptController - 查询部门信息 id:36
+2025-12-17 20:22:38.420 [http-nio-8080-exec-6] INFO  com.example.controller.DeptController - 修改部门信息:Dept(id=36, name=821, createTime=2025-12-17T18:22:56, updateTime=2025-12-17T18:23:12)
+2025-12-17 20:22:38.445 [http-nio-8080-exec-6] WARN  com.example.aop.OperationLogAspect - token 解析失败: JWT String argument cannot be null or empty.
+2025-12-17 20:22:38.446 [http-nio-8080-exec-6] INFO  com.example.aop.OperationLogAspect - 操作日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-12-17T20:22:38.446704600, className=com.example.controller.DeptController, methodName=update, methodParams=[Dept(id=36, name=821, createTime=2025-12-17T18:22:56, updateTime=2025-12-17T20:22:38.420500500)], returnValue=Result(code=1, msg=success, data=null), costTime=23)
+2025-12-17 20:22:38.469 [http-nio-8080-exec-9] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:23:00.539 [http-nio-8080-exec-10] INFO  com.example.controller.DeptController - 查询部门信息 id:18
+2025-12-17 20:23:04.001 [http-nio-8080-exec-1] INFO  com.example.controller.DeptController - 修改部门信息:Dept(id=18, name=测试部, createTime=2025-12-17T17:32:30, updateTime=2025-12-17T17:32:30)
+2025-12-17 20:23:04.043 [http-nio-8080-exec-1] ERROR com.example.exception.GlobalExceptionHandler - 捕获到异常: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '测试部' for key 'dept.name'
+### The error may exist in com/example/mapper/DeptMapper.java (best guess)
+### The error may involve com.example.mapper.DeptMapper.update-Inline
+### The error occurred while setting parameters
+### SQL: update dept set name = ?, update_time = ? where id = ?
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '测试部' for key 'dept.name'
+; Duplicate entry '测试部' for key 'dept.name'
+2025-12-17 20:23:18.190 [http-nio-8080-exec-3] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:23:30.886 [http-nio-8080-exec-2] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:23:36.684 [http-nio-8080-exec-4] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:23:41.950 [http-nio-8080-exec-5] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:23:44.986 [http-nio-8080-exec-7] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:23:46.288 [http-nio-8080-exec-8] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:24:03.263 [http-nio-8080-exec-6] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:24:18.080 [http-nio-8080-exec-9] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:24:19.145 [http-nio-8080-exec-10] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:26:31.441 [http-nio-8080-exec-1] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:26:36.401 [http-nio-8080-exec-3] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:26:40.183 [http-nio-8080-exec-2] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:26:41.724 [http-nio-8080-exec-4] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:27:34.005 [http-nio-8080-exec-5] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:27:58.907 [http-nio-8080-exec-7] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:28:30.115 [http-nio-8080-exec-8] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:28:34.069 [http-nio-8080-exec-6] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:28:41.239 [http-nio-8080-exec-9] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:28:44.782 [http-nio-8080-exec-10] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:28:59.349 [http-nio-8080-exec-1] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:29:05.970 [http-nio-8080-exec-3] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:30:25.318 [http-nio-8080-exec-2] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:30:29.412 [http-nio-8080-exec-4] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:30:37.518 [http-nio-8080-exec-5] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:30:46.421 [http-nio-8080-exec-7] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:30:50.168 [http-nio-8080-exec-8] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:30:52.165 [http-nio-8080-exec-6] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:30:56.649 [http-nio-8080-exec-9] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:30:59.756 [http-nio-8080-exec-10] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:31:02.215 [http-nio-8080-exec-1] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:31:05.134 [http-nio-8080-exec-3] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:31:06.652 [http-nio-8080-exec-2] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:31:09.501 [http-nio-8080-exec-4] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:31:14.088 [http-nio-8080-exec-5] INFO  com.example.controller.DeptController - 删除部门信息 id:36
+2025-12-17 20:31:14.099 [http-nio-8080-exec-5] WARN  com.example.aop.OperationLogAspect - token 解析失败: JWT String argument cannot be null or empty.
+2025-12-17 20:31:14.099 [http-nio-8080-exec-5] INFO  com.example.aop.OperationLogAspect - 操作日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-12-17T20:31:14.099425400, className=com.example.controller.DeptController, methodName=deleteById, methodParams=[36], returnValue=Result(code=1, msg=success, data=null), costTime=11)
+2025-12-17 20:31:14.115 [http-nio-8080-exec-7] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:31:17.456 [http-nio-8080-exec-8] INFO  com.example.controller.DeptController - 删除部门信息 id:35
+2025-12-17 20:31:17.460 [http-nio-8080-exec-8] WARN  com.example.aop.OperationLogAspect - token 解析失败: JWT String argument cannot be null or empty.
+2025-12-17 20:31:17.462 [http-nio-8080-exec-8] INFO  com.example.aop.OperationLogAspect - 操作日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-12-17T20:31:17.462071800, className=com.example.controller.DeptController, methodName=deleteById, methodParams=[35], returnValue=Result(code=1, msg=success, data=null), costTime=4)
+2025-12-17 20:31:17.477 [http-nio-8080-exec-6] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:31:19.591 [http-nio-8080-exec-9] INFO  com.example.controller.DeptController - 删除部门信息 id:34
+2025-12-17 20:31:19.596 [http-nio-8080-exec-9] WARN  com.example.aop.OperationLogAspect - token 解析失败: JWT String argument cannot be null or empty.
+2025-12-17 20:31:19.596 [http-nio-8080-exec-9] INFO  com.example.aop.OperationLogAspect - 操作日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-12-17T20:31:19.596188, className=com.example.controller.DeptController, methodName=deleteById, methodParams=[34], returnValue=Result(code=1, msg=success, data=null), costTime=4)
+2025-12-17 20:31:19.609 [http-nio-8080-exec-10] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:31:21.521 [http-nio-8080-exec-1] INFO  com.example.controller.DeptController - 删除部门信息 id:33
+2025-12-17 20:31:21.526 [http-nio-8080-exec-1] WARN  com.example.aop.OperationLogAspect - token 解析失败: JWT String argument cannot be null or empty.
+2025-12-17 20:31:21.526 [http-nio-8080-exec-1] INFO  com.example.aop.OperationLogAspect - 操作日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-12-17T20:31:21.526151600, className=com.example.controller.DeptController, methodName=deleteById, methodParams=[33], returnValue=Result(code=1, msg=success, data=null), costTime=5)
+2025-12-17 20:31:21.539 [http-nio-8080-exec-3] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:31:23.531 [http-nio-8080-exec-2] INFO  com.example.controller.DeptController - 删除部门信息 id:32
+2025-12-17 20:31:23.536 [http-nio-8080-exec-2] WARN  com.example.aop.OperationLogAspect - token 解析失败: JWT String argument cannot be null or empty.
+2025-12-17 20:31:23.536 [http-nio-8080-exec-2] INFO  com.example.aop.OperationLogAspect - 操作日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-12-17T20:31:23.536096400, className=com.example.controller.DeptController, methodName=deleteById, methodParams=[32], returnValue=Result(code=1, msg=success, data=null), costTime=5)
+2025-12-17 20:31:23.549 [http-nio-8080-exec-4] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:31:25.389 [http-nio-8080-exec-5] INFO  com.example.controller.DeptController - 删除部门信息 id:31
+2025-12-17 20:31:25.394 [http-nio-8080-exec-5] WARN  com.example.aop.OperationLogAspect - token 解析失败: JWT String argument cannot be null or empty.
+2025-12-17 20:31:25.394 [http-nio-8080-exec-5] INFO  com.example.aop.OperationLogAspect - 操作日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-12-17T20:31:25.394571, className=com.example.controller.DeptController, methodName=deleteById, methodParams=[31], returnValue=Result(code=1, msg=success, data=null), costTime=5)
+2025-12-17 20:31:25.407 [http-nio-8080-exec-7] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:31:26.507 [http-nio-8080-exec-8] INFO  com.example.controller.DeptController - 查询部门信息 id:20
+2025-12-17 20:31:29.128 [http-nio-8080-exec-6] INFO  com.example.controller.DeptController - 修改部门信息:Dept(id=20, name=qwe强强额为, createTime=2025-12-17T17:35:34, updateTime=2025-12-17T17:35:34)
+2025-12-17 20:31:29.133 [http-nio-8080-exec-6] WARN  com.example.aop.OperationLogAspect - token 解析失败: JWT String argument cannot be null or empty.
+2025-12-17 20:31:29.133 [http-nio-8080-exec-6] INFO  com.example.aop.OperationLogAspect - 操作日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-12-17T20:31:29.133505900, className=com.example.controller.DeptController, methodName=update, methodParams=[Dept(id=20, name=qwe强强额为, createTime=2025-12-17T17:35:34, updateTime=2025-12-17T20:31:29.128497)], returnValue=Result(code=1, msg=success, data=null), costTime=5)
+2025-12-17 20:31:29.146 [http-nio-8080-exec-9] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:31:30.923 [http-nio-8080-exec-10] INFO  com.example.controller.DeptController - 删除部门信息 id:20
+2025-12-17 20:31:30.928 [http-nio-8080-exec-10] WARN  com.example.aop.OperationLogAspect - token 解析失败: JWT String argument cannot be null or empty.
+2025-12-17 20:31:30.929 [http-nio-8080-exec-10] INFO  com.example.aop.OperationLogAspect - 操作日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-12-17T20:31:30.928450200, className=com.example.controller.DeptController, methodName=deleteById, methodParams=[20], returnValue=Result(code=1, msg=success, data=null), costTime=5)
+2025-12-17 20:31:30.944 [http-nio-8080-exec-1] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:31:33.586 [http-nio-8080-exec-3] INFO  com.example.controller.DeptController - 删除部门信息 id:19
+2025-12-17 20:31:33.591 [http-nio-8080-exec-3] WARN  com.example.aop.OperationLogAspect - token 解析失败: JWT String argument cannot be null or empty.
+2025-12-17 20:31:33.591 [http-nio-8080-exec-3] INFO  com.example.aop.OperationLogAspect - 操作日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-12-17T20:31:33.591790, className=com.example.controller.DeptController, methodName=deleteById, methodParams=[19], returnValue=Result(code=1, msg=success, data=null), costTime=5)
+2025-12-17 20:31:33.606 [http-nio-8080-exec-2] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:31:35.610 [http-nio-8080-exec-4] INFO  com.example.controller.DeptController - 删除部门信息 id:18
+2025-12-17 20:31:35.616 [http-nio-8080-exec-4] WARN  com.example.aop.OperationLogAspect - token 解析失败: JWT String argument cannot be null or empty.
+2025-12-17 20:31:35.617 [http-nio-8080-exec-4] INFO  com.example.aop.OperationLogAspect - 操作日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-12-17T20:31:35.617877800, className=com.example.controller.DeptController, methodName=deleteById, methodParams=[18], returnValue=Result(code=1, msg=success, data=null), costTime=6)
+2025-12-17 20:31:35.630 [http-nio-8080-exec-5] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:32:37.566 [http-nio-8080-exec-7] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:32:38.765 [http-nio-8080-exec-8] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:32:40.400 [http-nio-8080-exec-6] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:32:42.657 [http-nio-8080-exec-9] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:32:54.608 [http-nio-8080-exec-10] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:32:55.893 [http-nio-8080-exec-1] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:32:57.736 [http-nio-8080-exec-3] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:32:59.976 [http-nio-8080-exec-2] INFO  com.example.controller.DeptController - 查询部门信息 id:3
+2025-12-17 20:33:02.786 [http-nio-8080-exec-4] INFO  com.example.controller.DeptController - 查询部门信息 id:16
+2025-12-17 20:33:12.619 [http-nio-8080-exec-5] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:33:14.473 [http-nio-8080-exec-7] INFO  com.example.controller.DeptController - 查询部门信息 id:3
+2025-12-17 20:33:19.460 [http-nio-8080-exec-8] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:33:22.278 [http-nio-8080-exec-6] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:33:25.457 [http-nio-8080-exec-9] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:33:29.671 [http-nio-8080-exec-10] INFO  com.example.controller.DeptController - 查询部门信息 id:1
+2025-12-17 20:34:10.370 [http-nio-8080-exec-1] INFO  com.example.controller.DeptController - 查询部门信息 id:4
+2025-12-17 20:34:14.018 [http-nio-8080-exec-3] INFO  com.example.controller.DeptController - 查询部门信息 id:6
+2025-12-17 20:34:31.962 [http-nio-8080-exec-2] INFO  com.example.controller.DeptController - 查询部门信息 id:2
+2025-12-17 20:34:45.192 [http-nio-8080-exec-4] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:37:21.860 [http-nio-8080-exec-5] INFO  com.example.controller.DeptController - 查询部门信息 id:3
+2025-12-17 20:37:24.986 [http-nio-8080-exec-7] INFO  com.example.controller.DeptController - 查询部门信息 id:6
+2025-12-17 20:37:29.879 [http-nio-8080-exec-8] INFO  com.example.controller.DeptController - 查询部门信息 id:5
+2025-12-17 20:37:37.382 [http-nio-8080-exec-6] INFO  com.example.controller.DeptController - 查询部门信息 id:3
+2025-12-17 20:37:43.339 [http-nio-8080-exec-9] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:37:45.074 [http-nio-8080-exec-10] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:37:46.004 [http-nio-8080-exec-1] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:40:42.378 [http-nio-8080-exec-3] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:40:43.697 [http-nio-8080-exec-2] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:40:44.426 [http-nio-8080-exec-4] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:47:34.533 [http-nio-8080-exec-5] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:55:05.426 [http-nio-8080-exec-7] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:55:38.230 [http-nio-8080-exec-8] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:55:39.404 [http-nio-8080-exec-6] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:58:05.151 [http-nio-8080-exec-9] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:58:06.459 [http-nio-8080-exec-10] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:58:11.039 [http-nio-8080-exec-1] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:58:11.826 [http-nio-8080-exec-3] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:58:55.516 [http-nio-8080-exec-2] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:58:56.462 [http-nio-8080-exec-4] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:58:58.131 [http-nio-8080-exec-5] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 20:58:59.921 [http-nio-8080-exec-7] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 21:07:54.638 [http-nio-8080-exec-8] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 21:07:56.608 [http-nio-8080-exec-6] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 21:14:12.197 [http-nio-8080-exec-9] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 21:14:13.361 [http-nio-8080-exec-10] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 21:14:15.005 [http-nio-8080-exec-1] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 21:14:15.853 [http-nio-8080-exec-3] INFO  com.example.controller.DeptController - 查询部门信息 id:3
+2025-12-17 21:14:25.465 [http-nio-8080-exec-2] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 21:14:28.381 [http-nio-8080-exec-4] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 21:19:57.363 [http-nio-8080-exec-5] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 21:19:59.939 [http-nio-8080-exec-7] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 21:20:02.399 [http-nio-8080-exec-8] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 21:21:13.247 [http-nio-8080-exec-6] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 21:21:15.598 [http-nio-8080-exec-9] INFO  com.example.controller.DeptController - 查询全部部门信息
+2025-12-17 21:23:24.559 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-17 21:23:24.583 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-12-17 21:23:24.606 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-12-17 21:23:24.624 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

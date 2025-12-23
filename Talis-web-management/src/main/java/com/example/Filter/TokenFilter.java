@@ -10,11 +10,10 @@ import lombok.extern.slf4j.Slf4j;
 import java.io.IOException;
 
 @Slf4j
-//@WebFilter(urlPatterns = "/*")
+@WebFilter(urlPatterns = "/*")
 public class TokenFilter implements Filter {
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
-        System.out.println("拦截请求");
         HttpServletRequest request = (HttpServletRequest) servletRequest;
         HttpServletResponse response = (HttpServletResponse) servletResponse;
         //1. 获取请求路径
